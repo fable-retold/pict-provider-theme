@@ -97,6 +97,27 @@
 		"--pict-modal-toast-info-bg":       "Color.Status.Info",
 		"--pict-modal-tooltip-bg":          "Color.Background.Tertiary",
 		"--pict-modal-tooltip-fg":          "Color.Text.Primary",
-		"--pict-modal-font-family":         "Typography.Family.Sans"
+		"--pict-modal-font-family":         "Typography.Family.Sans",
+
+		"--docuserve-text":         "Color.Text.Primary",
+		"--docuserve-text-strong":  "Color.Text.Primary",
+		"--docuserve-text-muted":   "Color.Text.Muted",
+		"--docuserve-accent":       "Color.Brand.Primary",
+		"--docuserve-bg-elevated":  "Color.Background.Panel",
+		"--docuserve-border":       "Color.Border.Default",
+		"--docuserve-border-soft":  "Color.Border.Light",
+		"--docuserve-mermaid-bg":   "Color.Background.Panel",
+
+		"--pict-mde-sidebar-top":   "Color.Background.Secondary",
+
+		"--pict-um-bg":          "Color.Background.Panel",
+		"--pict-um-fg":          "Color.Text.Primary",
+		"--pict-um-muted":       "Color.Text.Muted",
+		"--pict-um-accent":      "Color.Brand.Primary",
+		"--pict-um-border":      "Color.Border.Default",
+		"--pict-um-border-soft": "Color.Border.Light",
+		"--pict-um-input-bg":    "Color.Background.Primary",
+		"--pict-um-pill-bg":     "Color.Background.Tertiary",
+		"--pict-um-font":        "Typography.Family.Sans"
 	}
 }

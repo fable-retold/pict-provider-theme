@@ -1,26 +1,25 @@
 /**
  * Section registry — the navigable list shown in the left rail.
- *
- * Each entry is a small module with this shape:
- *   {
- *     id:       'modal',          // url slug (#/section/modal)
- *     name:     'Modal',          // display name
- *     group:    'Notification',   // left-nav grouping header
- *     status:   'live' | 'stub',  // 'stub' renders a pre-built "to wire" panel
- *     module?:  'pict-section-…', // npm name (informational)
- *     register: function(pict)    { ... },  // called once at boot for live sections
- *     render:   function(container, pict, helpers) { ... }  // called per nav
- *   }
- *
- * To wire a stub section:
- *   1. npm install pict-section-<name>
- *   2. Replace the corresponding require below with the live module
- *      (see modal.js for the canonical pattern).
- *   3. Add the section's `--*` CSS variables to the Aliases block in
- *      both src/themes/playground-starter.json and playground-corp.json.
  */
 const libBaseComponents = require('./base-components.js');
 const libModal = require('./modal.js');
+const libCode = require('./code.js');
+const libContent = require('./content.js');
+const libMarkdownEditor = require('./markdowneditor.js');
+const libInlineDoc = require('./inlinedocumentation.js');
+const libForm = require('./form.js');
+const libFormEditor = require('./formeditor.js');
+const libObjectEditor = require('./objecteditor.js');
+const libTuiGrid = require('./tuigrid.js');
+const libRecordSet = require('./recordset.js');
+const libEntityManagement = require('./entitymanagement.js');
+const libUserManagement = require('./usermanagement.js');
+const libLogin = require('./login.js');
+const libFileBrowser = require('./filebrowser.js');
+const libFlow = require('./flow.js');
+const libHistogram = require('./histogram.js');
+const libEquation = require('./equation.js');
+const libOpenSeaDragon = require('./openseadragon.js');
 const libStubs = require('./_stubs.js');
 
 module.exports =
@@ -37,13 +36,29 @@ module.exports =
 				'<div class="pg-welcome">' +
 				'  <h2>pict-provider-theme Playground</h2>' +
 				'  <p>Edit tokens, CSS, or imagery on the right. Pick a theme + mode at the top. Browse component sections on the left.</p>' +
-				'  <p>The <strong>Base Components</strong> page is a hand-rendered kitchen-sink that uses only <code>--theme-*</code> custom properties — it works under any theme without modification.</p>' +
-				'  <p>Sections marked <em>(stub)</em> are placeholders for the corresponding <code>pict-section-*</code> module. Wire them by following the pattern in <code>src/sections/modal.js</code>.</p>' +
+				'  <p>Every <code>pict-section-*</code> module is wired live. The <strong>Base Components</strong> page is a hand-rendered kitchen-sink that uses only <code>--theme-*</code> custom properties.</p>' +
 				'</div>';
 		}
 	},
 
 	libBaseComponents,
-	libModal
+	libModal,
+	libCode,
+	libContent,
+	libMarkdownEditor,
+	libInlineDoc,
+	libForm,
+	libFormEditor,
+	libObjectEditor,
+	libTuiGrid,
+	libRecordSet,
+	libEntityManagement,
+	libUserManagement,
+	libLogin,
+	libFileBrowser,
+	libFlow,
+	libHistogram,
+	libEquation,
+	libOpenSeaDragon
 ]
 .concat(libStubs);

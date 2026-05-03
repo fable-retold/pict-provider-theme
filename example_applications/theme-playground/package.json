@@ -10,12 +10,33 @@
 		"start": "npm run build && npm run serve"
 	},
 	"dependencies": {
+		"@recogito/annotorious-openseadragon": "^2.7.19",
+		"codejar": "^4.3.0",
 		"fable": "^3.0.0",
+		"openseadragon": "^4.1.1",
 		"pict": "^1.0.365",
 		"pict-application": "^1.0.33",
 		"pict-provider-theme": "file:../..",
 		"pict-router": "^1.0.9",
-		"pict-section-modal": "^0.0.5"
+		"pict-section-code": "^1.0.4",
+		"pict-section-content": "^0.1.5",
+		"pict-section-entitymanagement": "^1.0.1",
+		"pict-section-equation": "^0.0.2",
+		"pict-section-filebrowser": "^0.0.2",
+		"pict-section-flow": "^0.0.17",
+		"pict-section-form": "^1.0.195",
+		"pict-section-formeditor": "^1.0.13",
+		"pict-section-histogram": "^1.0.0",
+		"pict-section-inlinedocumentation": "^0.0.5",
+		"pict-section-login": "^0.0.1",
+		"pict-section-markdowneditor": "^1.0.10",
+		"pict-section-modal": "^0.0.5",
+		"pict-section-objecteditor": "^1.0.1",
+		"pict-section-openseadragon": "^1.0.20",
+		"pict-section-recordset": "^1.0.66",
+		"pict-section-tuigrid": "^1.0.31",
+		"pict-section-usermanagement": "^0.0.1",
+		"tui-grid": "^4.21.22"
 	},
 	"devDependencies": {
 		"http-server": "^14.1.1",
@@ -25,8 +46,45 @@
 		"whenFileExists": "overwrite"
 	},
 	"copyFiles": [
-		{ "from": "./src/index.html", "to": "./dist/" },
-		{ "from": "./src/playground.css", "to": "./dist/" },
-		{ "from": "./src/themes/*.json", "to": "./dist/themes/" }
+		{
+			"from": "./src/index.html",
+			"to": "./dist/"
+		},
+		{
+			"from": "./src/playground.css",
+			"to": "./dist/"
+		},
+		{
+			"from": "./src/themes/*.json",
+			"to": "./dist/themes/"
+		},
+		{
+			"from": "./node_modules/openseadragon/build/openseadragon/openseadragon.min.js",
+			"to": "./dist/vendor/openseadragon/"
+		},
+		{
+			"from": "./node_modules/openseadragon/build/openseadragon/images/*.png",
+			"to": "./dist/vendor/openseadragon/images/"
+		},
+		{
+			"from": "./node_modules/tui-grid/dist/tui-grid.min.js",
+			"to": "./dist/vendor/tui-grid/"
+		},
+		{
+			"from": "./node_modules/tui-grid/dist/tui-grid.min.css",
+			"to": "./dist/vendor/tui-grid/"
+		},
+		{
+			"from": "./node_modules/@recogito/annotorious-openseadragon/dist/openseadragon-annotorious.min.js",
+			"to": "./dist/vendor/annotorious/"
+		},
+		{
+			"from": "./node_modules/@recogito/annotorious-openseadragon/dist/annotorious.min.css",
+			"to": "./dist/vendor/annotorious/"
+		},
+		{
+			"from": "./src/vendor/codejar.js",
+			"to": "./dist/vendor/codejar/"
+		}
 	]
 }
