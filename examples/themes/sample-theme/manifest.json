@@ -1,0 +1,31 @@
+{
+	"Hash": "sample-theme",
+	"Name": "Sample Theme",
+	"Version": "0.0.1",
+	"Description": "Reference unrolled theme that exercises every compiler input: manifest tokens, CSS files, nested SVG folder, image folder.",
+	"Comprehensive": true,
+	"Modes": {
+		"Strategy": "paired",
+		"Default": "light"
+	},
+	"Tokens": {
+		"Color": {
+			"Background": {
+				"Primary": { "Light": "#ffffff", "Dark": "#101010" }
+			},
+			"Text": {
+				"Primary": { "Light": "#222222", "Dark": "#eaeaea" }
+			},
+			"Brand": {
+				"Primary": "#9933ff"
+			}
+		},
+		"Spacing": {
+			"MD": "12px"
+		}
+	},
+	"Brand": {
+		"Name": "Sample",
+		"Tagline": "Compiler smoke-test theme."
+	}
+}

@@ -1,0 +1,6 @@
+.sample-root
+{
+	background: var(--theme-color-background-primary);
+	color: var(--theme-color-text-primary);
+	padding: var(--theme-spacing-md);
+}

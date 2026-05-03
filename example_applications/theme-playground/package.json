@@ -1,0 +1,32 @@
+{
+	"name": "pict-provider-theme-playground",
+	"version": "0.0.1",
+	"description": "Interactive theme builder/playground for pict-provider-theme. Live-edit tokens + CSS, upload imagery, see a representative component gallery reflow instantly, export a compiled JSON bundle.",
+	"main": "src/Playground.js",
+	"private": true,
+	"scripts": {
+		"build": "npx quack build && npx quack copy",
+		"serve": "node serve.js",
+		"start": "npm run build && npm run serve"
+	},
+	"dependencies": {
+		"fable": "^3.0.0",
+		"pict": "^1.0.365",
+		"pict-application": "^1.0.33",
+		"pict-provider-theme": "file:../..",
+		"pict-router": "^1.0.9",
+		"pict-section-modal": "^0.0.5"
+	},
+	"devDependencies": {
+		"http-server": "^14.1.1",
+		"quackage": "^1.2.0"
+	},
+	"copyFilesSettings": {
+		"whenFileExists": "overwrite"
+	},
+	"copyFiles": [
+		{ "from": "./src/index.html", "to": "./dist/" },
+		{ "from": "./src/playground.css", "to": "./dist/" },
+		{ "from": "./src/themes/*.json", "to": "./dist/themes/" }
+	]
+}

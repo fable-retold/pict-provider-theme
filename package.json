@@ -1,0 +1,29 @@
+{
+	"name": "pict-provider-theme",
+	"version": "0.0.1",
+	"description": "Pict provider for runtime theme management — registers theme bundles (token maps + CSS + SVG + image assets), applies them by injecting CSS custom properties into a single <style> element, supports dark/light/system modes via a class on <html>, and exposes jellyfish template tags ({~Theme:~}, {~ThemeVar:~}, {~ThemeAsset:~}, {~ThemeImage:~}) for token resolution in templates. Stateless — host applications own theme persistence.",
+	"main": "source/Pict-Provider-Theme.js",
+	"bin": {
+		"pict-theme-build": "bin/pict-theme-build.js"
+	},
+	"scripts": {
+		"start": "node source/Pict-Provider-Theme.js",
+		"test": "npx mocha -u tdd --exit --timeout 5000 test/Pict-Provider-Theme_tests.js test/Theme-Compiler_tests.js test/Twilight-Parity_tests.js",
+		"coverage": "npx nyc --reporter=lcov --reporter=text npm test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/stevenvelozo/pict-provider-theme.git"
+	},
+	"author": "steven velozo <steven@velozo.com>",
+	"license": "MIT",
+	"dependencies": {
+		"pict-provider": "^1.0.12",
+		"pict-template": "^1.0.0"
+	},
+	"devDependencies": {
+		"fable": "^3.0.0",
+		"mocha": "^10.2.0",
+		"quackage": "^1.1.0"
+	}
+}

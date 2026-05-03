@@ -1,0 +1,124 @@
+{
+	"Hash": "retold-mono",
+	"Name": "Retold Mono",
+	"Version": "0.0.1",
+	"Description": "A single-mode high-contrast monochrome theme. Useful for print contexts, simple admin tooling, and as a single-mode reference theme.",
+	"Comprehensive": true,
+	"Modes": {
+		"Strategy": "single",
+		"Default": "light"
+	},
+	"Tokens": {
+		"Color": {
+			"Background": {
+				"Primary":   "#ffffff",
+				"Secondary": "#f0f0f0",
+				"Tertiary":  "#e2e2e2",
+				"Panel":     "#ffffff",
+				"Hover":     "#ebebeb",
+				"Selected":  "#d6d6d6"
+			},
+			"Text": {
+				"Primary":     "#000000",
+				"Secondary":   "#222222",
+				"Muted":       "#555555",
+				"Placeholder": "#888888"
+			},
+			"Brand": {
+				"Primary":      "#000000",
+				"PrimaryHover": "#222222",
+				"Accent":       "#444444"
+			},
+			"Border": {
+				"Default": "#888888",
+				"Light":   "#cccccc",
+				"Strong":  "#000000"
+			},
+			"Status": {
+				"Success": "#000000",
+				"Warning": "#000000",
+				"Error":   "#000000",
+				"Info":    "#000000"
+			},
+			"Scrollbar": {
+				"Track": "#e0e0e0",
+				"Thumb": "#888888",
+				"Hover": "#444444"
+			},
+			"Selection": {
+				"Background": "#000000",
+				"Text":       "#ffffff"
+			},
+			"Focus": {
+				"Outline": "#000000"
+			},
+			"Shadow": {
+				"Color": "rgba(0, 0, 0, 0.18)"
+			}
+		},
+		"Typography": {
+			"Family": {
+				"Sans": "Helvetica, Arial, sans-serif",
+				"Serif": "Georgia, Times New Roman, serif",
+				"Mono": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+			},
+			"Size": {
+				"XS": "0.75rem",
+				"SM": "0.875rem",
+				"MD": "1rem",
+				"LG": "1.125rem",
+				"XL": "1.375rem",
+				"XXL": "1.75rem"
+			},
+			"Weight": {
+				"Regular": "400",
+				"Medium": "600",
+				"Bold": "700"
+			},
+			"LineHeight": {
+				"Tight": "1.15",
+				"Normal": "1.4",
+				"Loose": "1.65"
+			}
+		},
+		"Spacing": {
+			"XS": "4px",
+			"SM": "8px",
+			"MD": "12px",
+			"LG": "16px",
+			"XL": "24px",
+			"XXL": "32px"
+		},
+		"Radius": {
+			"None": "0",
+			"SM": "0",
+			"MD": "0",
+			"LG": "0",
+			"XL": "0",
+			"Pill": "999px"
+		},
+		"Shadow": {
+			"SM": "0 1px 0 var(--theme-color-shadow-color)",
+			"MD": "0 2px 0 var(--theme-color-shadow-color)",
+			"LG": "0 4px 0 var(--theme-color-shadow-color)"
+		},
+		"ZIndex": {
+			"Base": "0",
+			"Dropdown": "100",
+			"Sticky": "200",
+			"Overlay": "900",
+			"Modal": "1000",
+			"Toast": "2000",
+			"Tooltip": "3000"
+		},
+		"Duration": {
+			"Fast": "0ms",
+			"Normal": "0ms",
+			"Slow": "0ms"
+		}
+	},
+	"Brand": {
+		"Name": "Retold Mono",
+		"Tagline": "Black on white. Nothing else."
+	}
+}
