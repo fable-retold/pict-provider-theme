@@ -1,64 +1,89 @@
 /**
- * pict-section-equation — equation rendering / solver.
+ * pict-section-equation — equation expression display via the
+ * tokenized editor (which uses pict-section-code internally for syntax
+ * highlighting; CodeJar is loaded via <script> in index.html).
  */
+const libPictView = require('pict-view');
 const libPictSectionEquation = require('pict-section-equation');
 
-const VIEW_ID = 'Playground-Equation';
-const TARGET_ID = 'Playground-Equation-Container';
+const SECTION_VIEW_ID = 'Playground-Equation';
+const WRAPPER_VIEW_ID = 'Playground-EquationWrapper';
+const TARGET_ID = 'Playground-EquationWrapper-Destination';
+const EQUATION_TARGET_ID = 'Playground-Equation-Container';
 
-let _mounted = false;
-
-module.exports =
+class PictViewPlaygroundEquationWrapper extends libPictView
 {
-	id: 'equation',
-	name: 'Equation',
-	group: 'Visualization',
-	status: 'live',
-	module: 'pict-section-equation',
-
-	register: function () {},
-
-	render: function (pContainer, pPict)
+	onAfterRender(pRenderable, pRenderDestinationAddress, pRecord, pContent)
 	{
-		pContainer.innerHTML =
-			'<h2 class="pg-section-title">pict-section-equation</h2>' +
-			'<p class="pg-section-blurb">Equation rendering / solver. Mounted as smoke test.</p>' +
-			'<div class="gallery-card">' +
-			'  <div id="' + TARGET_ID + '" style="min-height: 320px;"></div>' +
-			'</div>';
-
-		if (!_mounted)
+		this.pict.CSSMap.injectCSS();
+		let tmpInner = this.pict.views[SECTION_VIEW_ID];
+		if (tmpInner)
 		{
+			tmpInner.initialRenderComplete = false;
 			try
 			{
-				pPict.addView(VIEW_ID,
-					{
-						ViewIdentifier: VIEW_ID,
-						DefaultDestinationAddress: '#' + TARGET_ID,
-						TargetElementAddress: '#' + TARGET_ID,
-						AutoRender: false
-					},
-					libPictSectionEquation);
-				_mounted = true;
+				tmpInner.render();
+				if (typeof tmpInner.setExpression === 'function')
+				{
+					tmpInner.setExpression('Hypotenuse = sqrt(A ^ 2 + B ^ 2)');
+				}
 			}
 			catch (pErr)
 			{
-				document.getElementById(TARGET_ID).innerHTML =
-					'<p style="color: var(--theme-color-status-warning);">Mount failed: ' + pErr.message + '</p>';
-				return;
+				let tmpDest = document.getElementById(EQUATION_TARGET_ID);
+				if (tmpDest) tmpDest.innerHTML = '<p style="color:var(--theme-color-status-warning);">Inner render failed: ' + pErr.message + '</p>';
 			}
 		}
+		return super.onAfterRender(pRenderable, pRenderDestinationAddress, pRecord, pContent);
+	}
+}
 
-		let tmpView = pPict.views[VIEW_ID];
-		if (tmpView)
-		{
-			tmpView.initialRenderComplete = false;
-			try { tmpView.render(); }
-			catch (pErr)
+module.exports = {
+	id: 'equation', name: 'Equation', group: 'Visualization', module: 'pict-section-equation',
+	ViewIdentifier: WRAPPER_VIEW_ID,
+	ViewClass: PictViewPlaygroundEquationWrapper,
+	DestinationId: TARGET_ID,
+	ViewConfiguration:
+	{
+		ViewIdentifier: WRAPPER_VIEW_ID,
+		DefaultRenderable: 'Playground-EquationWrapper-Content',
+		DefaultDestinationAddress: '#' + TARGET_ID,
+		AutoRender: false,
+		Templates:
+		[
 			{
-				document.getElementById(TARGET_ID).innerHTML =
-					'<p style="color: var(--theme-color-status-warning);">Render failed: ' + pErr.message + '</p>';
+				Hash: 'Playground-EquationWrapper-Content',
+				Template: /*html*/`
+<h2 class="pg-section-title">pict-section-equation</h2>
+<p class="pg-section-blurb">Tokenized equation editor (uses pict-section-code internally for syntax highlighting).</p>
+<div class="gallery-card">
+	<div id="${EQUATION_TARGET_ID}" style="min-height: 240px;"></div>
+</div>`
 			}
+		],
+		Renderables:
+		[
+			{
+				RenderableHash: 'Playground-EquationWrapper-Content',
+				TemplateHash: 'Playground-EquationWrapper-Content',
+				DestinationAddress: '#' + TARGET_ID,
+				RenderMethod: 'replace'
+			}
+		]
+	},
+	setup: function (pPict)
+	{
+		try
+		{
+			pPict.addView(SECTION_VIEW_ID,
+				Object.assign({},
+					libPictSectionEquation.PictViewExpressionTokenizedEditor.default_configuration,
+					{
+						ViewIdentifier: SECTION_VIEW_ID,
+						DefaultDestinationAddress: '#' + EQUATION_TARGET_ID
+					}),
+				libPictSectionEquation.PictViewExpressionTokenizedEditor);
 		}
+		catch (pErr) { /* */ }
 	}
 };

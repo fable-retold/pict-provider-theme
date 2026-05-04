@@ -2,7 +2,7 @@
 	"name": "pict-provider-theme-playground",
 	"version": "0.0.1",
 	"description": "Interactive theme builder/playground for pict-provider-theme. Live-edit tokens + CSS, upload imagery, see a representative component gallery reflow instantly, export a compiled JSON bundle.",
-	"main": "src/Playground.js",
+	"main": "src/Pict-Application-Playground.js",
 	"private": true,
 	"scripts": {
 		"build": "npx quack build && npx quack copy",
@@ -85,6 +85,14 @@
 		{
 			"from": "./src/vendor/codejar.js",
 			"to": "./dist/vendor/codejar/"
+		},
+		{
+			"from": "./src/vendor/codemirror-bundle.js",
+			"to": "./dist/vendor/codemirror/"
+		},
+		{
+			"from": "./node_modules/pict/dist/pict.min.js",
+			"to": "./dist/vendor/pict/"
 		}
 	]
 }

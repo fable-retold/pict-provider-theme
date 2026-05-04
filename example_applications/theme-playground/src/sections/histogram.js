@@ -1,68 +1,46 @@
 /**
- * pict-section-histogram — histogram/distribution chart.
+ * pict-section-histogram — bar chart.
+ *
+ * Per simple_histogram example:
+ *   - Bins is the data input — array of { Label, Value } (NOT just numbers).
+ *   - Renderables wraps "Histogram-Container" template into our destination.
  */
 const libPictSectionHistogram = require('pict-section-histogram');
+const { buildSection } = require('./_wrapper.js');
 
-const VIEW_ID = 'Playground-Histogram';
-const TARGET_ID = 'Histogram-Container-Div';
-
-let _mounted = false;
-
-module.exports =
-{
-	id: 'histogram',
-	name: 'Histogram',
-	group: 'Visualization',
-	status: 'live',
-	module: 'pict-section-histogram',
-
-	register: function () {},
-
-	render: function (pContainer, pPict)
+module.exports = buildSection({
+	id: 'histogram', name: 'Histogram', group: 'Visualization', module: 'pict-section-histogram',
+	WrapperViewId: 'Playground-HistogramWrapper',
+	WrapperTargetId: 'Playground-HistogramWrapper-Destination',
+	InnerViewId: 'Playground-Histogram',
+	InnerTargetId: 'Histogram-Container-Div',
+	InnerViewClass: libPictSectionHistogram,
+	InnerContainerStyle: 'min-height: 320px;',
+	Title: 'pict-section-histogram',
+	Blurb: 'Histogram chart. Sample data covers a representative bar palette.',
+	InnerViewConfiguration:
 	{
-		pContainer.innerHTML =
-			'<h2 class="pg-section-title">pict-section-histogram</h2>' +
-			'<p class="pg-section-blurb">Histogram chart. Mounted with sample data.</p>' +
-			'<div class="gallery-card">' +
-			'  <div id="' + TARGET_ID + '" style="min-height: 320px;"></div>' +
-			'</div>';
-
-		if (!pPict.AppData.Playground) pPict.AppData.Playground = {};
-		pPict.AppData.Playground.HistogramData = [3, 7, 12, 18, 25, 34, 42, 38, 28, 19, 11, 6, 3, 1];
-
-		if (!_mounted)
-		{
-			try
+		Bins:
+		[
+			{ Label: 'JavaScript', Value: 65 },
+			{ Label: 'Python',     Value: 52 },
+			{ Label: 'TypeScript', Value: 38 },
+			{ Label: 'Rust',       Value: 22 },
+			{ Label: 'Go',         Value: 30 },
+			{ Label: 'Java',       Value: 45 }
+		],
+		Orientation: 'vertical',
+		Selectable: false,
+		MaxBarSize: 200,
+		BarThickness: 32,
+		BarGap: 8,
+		Renderables:
+		[
 			{
-				pPict.addView(VIEW_ID,
-					{
-						ViewIdentifier: VIEW_ID,
-						DefaultDestinationAddress: '#' + TARGET_ID,
-						TargetElementAddress: '#' + TARGET_ID,
-						AutoRender: false,
-						DataAddress: 'AppData.Playground.HistogramData'
-					},
-					libPictSectionHistogram);
-				_mounted = true;
+				RenderableHash: 'Histogram-Wrap',
+				TemplateHash: 'Histogram-Container',
+				DestinationAddress: '#Histogram-Container-Div'
 			}
-			catch (pErr)
-			{
-				document.getElementById(TARGET_ID).innerHTML =
-					'<p style="color: var(--theme-color-status-warning);">Mount failed: ' + pErr.message + '</p>';
-				return;
-			}
-		}
-
-		let tmpView = pPict.views[VIEW_ID];
-		if (tmpView)
-		{
-			tmpView.initialRenderComplete = false;
-			try { tmpView.render(); }
-			catch (pErr)
-			{
-				document.getElementById(TARGET_ID).innerHTML =
-					'<p style="color: var(--theme-color-status-warning);">Render failed: ' + pErr.message + '</p>';
-			}
-		}
+		]
 	}
-};
+});

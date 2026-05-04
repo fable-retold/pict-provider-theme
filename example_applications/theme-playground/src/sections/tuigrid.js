@@ -1,39 +1,29 @@
-/**
- * pict-section-tuigrid — TOAST UI Grid wrapper.
- *
- * Wraps tui-grid which has its own built-in CSS theme system.  For this
- * smoke test we mount with a small dataset and let TOAST UI's default
- * theme apply.
- */
-// pict-section-tuigrid expects window.tui.Grid.  TOAST UI Grid is a UMD that
-// doesn't browserify cleanly; index.html loads it via <script>+<link> from
-// dist/vendor/tui-grid.min.* (copied by quack copy).
 const libPictSectionTuiGrid = require('pict-section-tuigrid');
+const { buildSection } = require('./_wrapper.js');
 
-const VIEW_ID = 'Playground-TuiGrid';
-const TARGET_ID = 'Playground-TuiGrid-Container';
-
-let _mounted = false;
-
-module.exports =
-{
-	id: 'tuigrid',
-	name: 'TUI Grid',
-	group: 'Data',
-	status: 'live',
-	module: 'pict-section-tuigrid',
-
-	register: function () {},
-
-	render: function (pContainer, pPict)
+module.exports = buildSection({
+	id: 'tuigrid', name: 'TUI Grid', group: 'Data', module: 'pict-section-tuigrid',
+	WrapperViewId: 'Playground-TuiGridWrapper',
+	WrapperTargetId: 'Playground-TuiGridWrapper-Destination',
+	InnerViewId: 'Playground-TuiGrid',
+	InnerTargetId: 'Playground-TuiGrid-Container',
+	InnerViewClass: libPictSectionTuiGrid,
+	InnerContainerStyle: 'min-height: 320px;',
+	Title: 'pict-section-tuigrid',
+	Blurb: 'TOAST UI Grid wrapper. Uses its own built-in theme; the playground demonstrates mount + sample data.',
+	InnerViewConfiguration:
 	{
-		pContainer.innerHTML =
-			'<h2 class="pg-section-title">pict-section-tuigrid</h2>' +
-			'<p class="pg-section-blurb">TOAST UI Grid wrapper. Has its own built-in theme system; the playground demonstrates mount + sample data.</p>' +
-			'<div class="gallery-card">' +
-			'  <div id="' + TARGET_ID + '" style="min-height: 320px;"></div>' +
-			'</div>';
-
+		DataAddress: 'AppData.Playground.GridData',
+		Columns:
+		[
+			{ name: 'id',      header: 'ID',      width: 60 },
+			{ name: 'name',    header: 'Name',    width: 160 },
+			{ name: 'status',  header: 'Status',  width: 120 },
+			{ name: 'updated', header: 'Updated', width: 140 }
+		]
+	},
+	AdditionalSetup: function (pPict)
+	{
 		if (!pPict.AppData.Playground) pPict.AppData.Playground = {};
 		pPict.AppData.Playground.GridData =
 		[
@@ -43,47 +33,16 @@ module.exports =
 			{ id: 4, name: 'Delta',   status: 'idle',    updated: '2026-03-29' },
 			{ id: 5, name: 'Echo',    status: 'active',  updated: '2026-03-15' }
 		];
-
-		if (!_mounted)
+	},
+	onShow: function (pPict)
+	{
+		// TUI Grid needs a layout refresh when its container becomes visible
+		// after being display:none.
+		let tmpView = pPict.views['Playground-TuiGrid'];
+		if (tmpView && tmpView.tuiGrid && typeof tmpView.tuiGrid.refreshLayout === 'function')
 		{
-			try
-			{
-				pPict.addView(VIEW_ID,
-					{
-						ViewIdentifier: VIEW_ID,
-						DefaultDestinationAddress: '#' + TARGET_ID,
-						TargetElementAddress: '#' + TARGET_ID,
-						AutoRender: false,
-						DataAddress: 'AppData.Playground.GridData',
-						Columns:
-						[
-							{ name: 'id',      header: 'ID',      width: 60 },
-							{ name: 'name',    header: 'Name',    width: 160 },
-							{ name: 'status',  header: 'Status',  width: 120 },
-							{ name: 'updated', header: 'Updated', width: 140 }
-						]
-					},
-					libPictSectionTuiGrid);
-				_mounted = true;
-			}
-			catch (pErr)
-			{
-				document.getElementById(TARGET_ID).innerHTML =
-					'<p style="color: var(--theme-color-status-warning);">Mount failed: ' + pErr.message + '</p>';
-				return;
-			}
-		}
-
-		let tmpView = pPict.views[VIEW_ID];
-		if (tmpView)
-		{
-			tmpView.initialRenderComplete = false;
-			try { tmpView.render(); }
-			catch (pErr)
-			{
-				document.getElementById(TARGET_ID).innerHTML =
-					'<p style="color: var(--theme-color-status-warning);">Render failed: ' + pErr.message + '</p>';
-			}
+			try { tmpView.tuiGrid.refreshLayout(); }
+			catch (pErr) { /* tolerate */ }
 		}
 	}
-};
+});

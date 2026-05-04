@@ -12,55 +12,15 @@
 	<script src="vendor/annotorious/openseadragon-annotorious.min.js"></script>
 	<script src="vendor/tui-grid/tui-grid.min.js"></script>
 	<script src="vendor/codejar/codejar.js"></script>
+	<script src="vendor/codemirror/codemirror-bundle.js"></script>
+	<script src="vendor/pict/pict.min.js"></script>
 </head>
 <body>
-	<div class="pg-shell">
-
-		<div class="pg-header">
-			<div class="pg-header-title">pict-provider-theme Playground</div>
-			<div class="pg-header-controls">
-				<span class="pg-control-label">Theme</span>
-				<select id="pg-theme-select" class="pg-select"></select>
-				<span class="pg-control-label">Mode</span>
-				<button class="pg-mode-button" data-mode="light">Light</button>
-				<button class="pg-mode-button" data-mode="dark">Dark</button>
-				<button class="pg-mode-button" data-mode="system">System</button>
-				<button id="pg-export" class="pg-export-button">Export bundle</button>
-			</div>
-		</div>
-
-		<nav id="pg-nav" class="pg-nav" aria-label="Sections"></nav>
-
-		<main id="pg-stage" class="pg-stage">
-			<div class="pg-stage-loading">Loading…</div>
-		</main>
-
-		<aside class="pg-side">
-			<div class="pg-section">
-				<div class="pg-section-header">Tokens</div>
-				<div id="pg-token-editor" class="pg-section-body"></div>
-			</div>
-			<div class="pg-section">
-				<div class="pg-section-header">Auxiliary CSS</div>
-				<div class="pg-section-body">
-					<textarea id="pg-css-editor" class="pg-cssedit-textarea" placeholder="/* CSS that travels with the theme. */"></textarea>
-				</div>
-			</div>
-			<div class="pg-section">
-				<div class="pg-section-header">Imagery</div>
-				<div class="pg-section-body">
-					<div id="pg-dropzone" class="pg-dropzone">
-						Drop logo / favicon images here<br>
-						<small>(or click to choose)</small>
-						<input id="pg-file-input" type="file" multiple accept="image/*" style="display:none">
-					</div>
-					<div id="pg-image-preview" class="pg-image-preview"></div>
-				</div>
-			</div>
-		</aside>
-
-	</div>
+	<div id="Playground-Application-Container"></div>
 
 	<script src="pict-provider-theme-playground.min.js"></script>
+	<script>
+		Pict.safeOnDocumentReady(() => Pict.safeLoadPictApplication(PictProviderThemePlayground, 2));
+	</script>
 </body>
 </html>
