@@ -278,14 +278,14 @@ function writeIndexHTML(pOutDir, pBundle, pResults, pModes)
 	let tmpHTML = '<!doctype html><meta charset="utf-8">';
 	tmpHTML += '<title>Theme screenshots — ' + escape(pBundle.Name || pBundle.Hash) + '</title>';
 	tmpHTML += '<style>' +
-		'body { font: 14px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 24px; background: #fafafa; color: #222; }' +
-		'h1 { margin: 0 0 8px; } h1 small { color: #888; font-weight: normal; font-size: 0.65em; }' +
-		'h2 { margin: 32px 0 8px; padding-bottom: 4px; border-bottom: 1px solid #ddd; color: #555; font-size: 0.85em; text-transform: uppercase; letter-spacing: .05em; }' +
+		'body { font: 14px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 24px; background: var(--theme-color-background-secondary, #fafafa); color: var(--theme-color-text-primary, #222); }' +
+		'h1 { margin: 0 0 8px; } h1 small { color: var(--theme-color-text-muted, #888); font-weight: normal; font-size: 0.65em; }' +
+		'h2 { margin: 32px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--theme-color-border-default, #ddd); color: var(--theme-color-text-secondary, #555); font-size: 0.85em; text-transform: uppercase; letter-spacing: .05em; }' +
 		'.section { margin: 16px 0 32px; }' +
 		'.section h3 { margin: 0 0 8px; font-size: 1em; }' +
 		'.shot-row { display: grid; grid-template-columns: repeat(' + pModes.length + ', 1fr); gap: 12px; }' +
-		'.shot { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 8px; text-align: center; font-size: 12px; }' +
-		'.shot img { max-width: 100%; height: auto; display: block; margin: 0 auto 6px; border: 1px solid #eee; }' +
+		'.shot { background: var(--theme-color-background-panel, #fff); border: 1px solid var(--theme-color-border-default, #ddd); border-radius: 6px; padding: 8px; text-align: center; font-size: 12px; }' +
+		'.shot img { max-width: 100%; height: auto; display: block; margin: 0 auto 6px; border: 1px solid var(--theme-color-border-light, #eee); }' +
 		'.shot.failed { background: #fdd; }' +
 		'</style>';
 	tmpHTML += '<h1>' + escape(pBundle.Name || pBundle.Hash) + ' <small>' + escape(pBundle.Hash) + '</small></h1>';

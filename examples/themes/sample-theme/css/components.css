@@ -1,5 +1,5 @@
 .sample-button
 {
 	background: var(--theme-color-brand-primary);
-	color: #fff;
+	color: var(--theme-color-background-panel, #fff);
 }
