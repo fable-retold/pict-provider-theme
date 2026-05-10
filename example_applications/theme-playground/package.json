@@ -34,6 +34,7 @@
 		"pict-section-objecteditor": "^1.0.1",
 		"pict-section-openseadragon": "^1.0.20",
 		"pict-section-recordset": "^1.0.66",
+		"pict-section-theme": "file:../../../pict-section-theme",
 		"pict-section-tuigrid": "^1.0.31",
 		"pict-section-usermanagement": "^0.0.1",
 		"tui-grid": "^4.21.22"
