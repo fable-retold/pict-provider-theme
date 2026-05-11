@@ -553,3 +553,461 @@ html, body
 	font-size: var(--theme-typography-size-lg);
 	font-weight: var(--theme-typography-weight-bold);
 }
+
+/* ── Logo Explorer ──────────────────────────────────────────────
+   Brand-mark generator playground. Tile backgrounds switch between
+   light and dark depending on which variant is being grid-displayed
+   so the contrast looks right; the rest of the chrome stays themed. */
+.logo-controls
+{
+	display: flex;
+	flex-direction: column;
+	gap: var(--theme-spacing-sm);
+	margin-bottom: var(--theme-spacing-lg);
+}
+.logo-controls-row
+{
+	display: flex;
+	align-items: center;
+	gap: var(--theme-spacing-md);
+	flex-wrap: wrap;
+}
+.logo-controls-label
+{
+	min-width: 110px;
+	font-size: var(--theme-typography-size-xs);
+	font-weight: var(--theme-typography-weight-bold);
+	letter-spacing: 0.6px;
+	text-transform: uppercase;
+	color: var(--theme-color-text-muted);
+}
+.logo-custom-input
+{
+	min-width: 220px;
+	font-family: var(--theme-typography-family-mono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace);
+}
+.logo-variant-toggle
+{
+	display: inline-flex;
+	background: var(--theme-color-background-secondary);
+	border: 1px solid var(--theme-color-border-default);
+	border-radius: var(--theme-radius-md);
+	overflow: hidden;
+}
+.logo-variant-btn
+{
+	background: transparent;
+	border: 0;
+	padding: 6px 12px;
+	font: inherit;
+	font-size: var(--theme-typography-size-xs);
+	cursor: pointer;
+	color: var(--theme-color-text-secondary);
+}
+.logo-variant-btn.is-active
+{
+	background: var(--theme-color-brand-primary);
+	color: var(--theme-color-text-on-brand);
+}
+
+/* Palette toggle — wraps freely so a long list of curated palettes
+   doesn't squish the variant row. */
+.logo-palette-toggle
+{
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 6px;
+}
+.logo-palette-btn
+{
+	background: var(--theme-color-background-panel);
+	border: 1px solid var(--theme-color-border-default);
+	border-radius: 999px;
+	padding: 5px 12px;
+	font: inherit;
+	font-size: var(--theme-typography-size-xs);
+	color: var(--theme-color-text-secondary);
+	cursor: pointer;
+	transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+.logo-palette-btn:hover
+{
+	background: var(--theme-color-background-hover);
+	border-color: var(--theme-color-brand-primary);
+}
+.logo-palette-btn.is-active
+{
+	background: var(--theme-color-brand-primary);
+	color: var(--theme-color-text-on-brand);
+	border-color: var(--theme-color-brand-primary);
+}
+.logo-palette-description
+{
+	min-height: 0;
+}
+.logo-palette-blurb
+{
+	font-size: var(--theme-typography-size-xs);
+	color: var(--theme-color-text-muted);
+	line-height: 1.5;
+	font-style: italic;
+	padding: 4px 0 0 110px;
+}
+
+.logo-detail-mix-tag
+{
+	display: inline-block;
+	font-size: 9px;
+	font-weight: var(--theme-typography-weight-bold);
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	background: var(--theme-color-background-tertiary);
+	color: var(--theme-color-text-muted);
+	padding: 1px 6px;
+	border-radius: 999px;
+	margin-left: 6px;
+	vertical-align: middle;
+}
+
+.logo-group
+{
+	margin-bottom: var(--theme-spacing-xl);
+}
+.logo-group-title
+{
+	font-size: var(--theme-typography-size-xs);
+	font-weight: var(--theme-typography-weight-bold);
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	color: var(--theme-color-brand-primary);
+	margin: 0 0 var(--theme-spacing-sm);
+}
+.logo-group-meta,
+.logo-group-count
+{
+	color: var(--theme-color-text-muted);
+	font-weight: var(--theme-typography-weight-regular);
+	text-transform: none;
+	letter-spacing: 0;
+	margin-left: var(--theme-spacing-sm);
+	font-size: var(--theme-typography-size-xs);
+}
+
+.logo-grid
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: var(--theme-spacing-sm);
+}
+.logo-tile
+{
+	background: var(--theme-color-background-panel);
+	border: 1px solid var(--theme-color-border-default);
+	border-radius: var(--theme-radius-md);
+	padding: 14px 12px 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	cursor: pointer;
+	transition: border-color 0.15s, transform 0.15s;
+}
+.logo-tile:hover
+{
+	border-color: var(--theme-color-brand-primary);
+	transform: translateY(-1px);
+}
+.logo-tile-bg-light { background: #f6f6f8; }
+.logo-tile-bg-dark { background: #0a0d11; border-color: #1a1f29; }
+.logo-tile-bg-dark .logo-tile-name { color: #aab4c2; }
+.logo-tile-bg-dark .logo-tile-pill { background: rgba(255,255,255,0.08); color: #aab4c2; }
+.logo-tile-svg { width: 96px; height: 96px; flex-shrink: 0; }
+.logo-tile-name
+{
+	font-family: var(--theme-typography-family-mono, ui-monospace, monospace);
+	font-size: 11px;
+	color: var(--theme-color-text-secondary);
+	text-align: center;
+	word-break: break-word;
+	line-height: 1.35;
+}
+.logo-tile-pill
+{
+	display: inline-block;
+	background: var(--theme-color-background-tertiary);
+	color: var(--theme-color-text-muted);
+	padding: 1px 6px;
+	border-radius: 999px;
+	font-size: 9px;
+	margin-left: 6px;
+	letter-spacing: 0.5px;
+}
+
+.logo-detail-slot { margin-bottom: var(--theme-spacing-lg); }
+.logo-detail-card
+{
+	display: flex;
+	flex-direction: column;
+	gap: var(--theme-spacing-md);
+}
+.logo-detail-header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo-detail-title
+{
+	margin: 0;
+	font-family: var(--theme-typography-family-mono, ui-monospace, monospace);
+	font-size: var(--theme-typography-size-lg);
+	color: var(--theme-color-text-primary);
+}
+.logo-detail-matrix
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: var(--theme-spacing-sm);
+}
+.logo-detail-cell
+{
+	border-radius: var(--theme-radius-md);
+	padding: var(--theme-spacing-md);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
+.logo-detail-cell-light { background: #f6f6f8; color: #4a5160; }
+.logo-detail-cell-dark { background: #0a0d11; color: #c2cad7; border: 1px solid #1a1f29; }
+.logo-detail-cell-label
+{
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: var(--theme-typography-weight-bold);
+	opacity: 0.7;
+}
+.logo-detail-cell-svg { width: 144px; height: 144px; }
+.logo-detail-cell-actions { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
+.logo-detail-cell .demo-btn { padding: 4px 10px; font-size: 11px; }
+
+.logo-detail-info
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: var(--theme-spacing-lg);
+	padding-top: var(--theme-spacing-md);
+	border-top: 1px solid var(--theme-color-border-default);
+}
+.logo-detail-section
+{
+	margin: 0 0 var(--theme-spacing-sm);
+	font-size: var(--theme-typography-size-xs);
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	color: var(--theme-color-brand-primary);
+	font-weight: var(--theme-typography-weight-bold);
+}
+.logo-detail-table
+{
+	width: 100%;
+	border-collapse: collapse;
+	font-size: var(--theme-typography-size-xs);
+}
+.logo-detail-table td
+{
+	padding: 4px 0;
+	color: var(--theme-color-text-secondary);
+}
+.logo-detail-table td:first-child
+{
+	color: var(--theme-color-text-muted);
+	padding-right: var(--theme-spacing-md);
+}
+.logo-detail-table code
+{
+	font-family: var(--theme-typography-family-mono, ui-monospace, monospace);
+	background: var(--theme-color-background-tertiary);
+	padding: 1px 6px;
+	border-radius: var(--theme-radius-sm);
+}
+.logo-color-swatch
+{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	border-radius: var(--theme-radius-sm);
+	border: 1px solid var(--theme-color-border-default);
+	vertical-align: middle;
+	margin-right: 6px;
+}
+.logo-detail-actions
+{
+	display: flex;
+	gap: var(--theme-spacing-sm);
+	flex-wrap: wrap;
+	padding-top: var(--theme-spacing-md);
+	border-top: 1px solid var(--theme-color-border-default);
+}
+
+/* ── Logo Explorer · v2 (manifest-driven, webapp/library split) ──── */
+.logo-section { margin-top: var(--theme-spacing-xl); }
+.logo-section-title
+{
+	font-size: var(--theme-typography-size-md);
+	font-weight: var(--theme-typography-weight-bold);
+	color: var(--theme-color-text-primary);
+	margin: 0 0 var(--theme-spacing-xs);
+}
+.logo-section-count
+{
+	color: var(--theme-color-text-muted);
+	font-weight: var(--theme-typography-weight-regular);
+	font-size: var(--theme-typography-size-sm);
+	margin-left: var(--theme-spacing-sm);
+}
+.logo-section-blurb
+{
+	color: var(--theme-color-text-secondary);
+	font-size: var(--theme-typography-size-sm);
+	margin: 0 0 var(--theme-spacing-md);
+	line-height: 1.45;
+}
+
+.logo-app-tile { gap: var(--theme-spacing-sm); }
+.logo-tile-marks
+{
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	justify-content: center;
+	min-height: 96px;
+}
+.logo-tile-svg-primary
+{
+	width: 96px;
+	height: 96px;
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.logo-tile-svg-primary svg { display: block; }
+
+/* Right column: favicon previews stacked at their *actual* rasterized
+   pixel sizes — 32 px on top, 16 px below — so the user sees what a
+   real browser tab will render. Both come from canvas rasterization
+   of the simplified favicon SVG, so the antialiasing matches what the
+   browser tab pipeline produces. */
+.logo-tile-favicon-stack
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	flex-shrink: 0;
+}
+.logo-tile-favicon-slot
+{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+.logo-tile-favicon-32 { width: 32px; height: 32px; }
+.logo-tile-favicon-16 { width: 16px; height: 16px; }
+.logo-tile-favicon-slot img { display: block; image-rendering: -webkit-optimize-contrast; }
+
+/* Library swatch grid */
+.logo-library-group { margin-bottom: var(--theme-spacing-lg); }
+.logo-library-group-title
+{
+	font-size: var(--theme-typography-size-xs);
+	font-weight: var(--theme-typography-weight-bold);
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	color: var(--theme-color-brand-primary);
+	margin: 0 0 var(--theme-spacing-sm);
+}
+.logo-library-group-count
+{
+	color: var(--theme-color-text-muted);
+	font-weight: var(--theme-typography-weight-regular);
+	text-transform: none;
+	letter-spacing: 0;
+	margin-left: var(--theme-spacing-sm);
+	font-size: var(--theme-typography-size-xs);
+}
+.logo-library-grid
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 6px;
+}
+.logo-library-row
+{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 8px 12px;
+	background: var(--theme-color-background-panel);
+	border: 1px solid var(--theme-color-border-default);
+	border-radius: var(--theme-radius-sm);
+	cursor: pointer;
+	transition: border-color 0.15s, background-color 0.15s;
+}
+.logo-library-row:hover
+{
+	border-color: var(--theme-color-brand-primary);
+	background: var(--theme-color-background-hover);
+}
+.logo-library-swatch
+{
+	width: 18px;
+	height: 18px;
+	border-radius: 4px;
+	flex-shrink: 0;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.06);
+}
+.logo-library-swatch-primary { width: 24px; height: 24px; border-radius: 6px; }
+.logo-library-name
+{
+	flex: 1;
+	font-family: var(--theme-typography-family-mono, ui-monospace, monospace);
+	font-size: var(--theme-typography-size-sm);
+	color: var(--theme-color-text-primary);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.logo-library-mono
+{
+	font-family: var(--theme-typography-family-mono, ui-monospace, monospace);
+	font-size: 10px;
+	color: var(--theme-color-text-muted);
+	letter-spacing: 0.5px;
+}
+
+/* Detail favicon scaling row — each cell rasterizes the favicon SVG to
+   a real PNG at the labeled pixel size and embeds it via <img>, so the
+   user sees the exact thing a browser tab will paint. */
+.logo-detail-favmatrix
+{
+	display: flex;
+	gap: var(--theme-spacing-md);
+	align-items: flex-end;
+	flex-wrap: wrap;
+	margin-bottom: var(--theme-spacing-md);
+}
+.logo-detail-fav-cell
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 6px;
+	padding: 12px;
+	border-radius: var(--theme-radius-md);
+	background: #f6f6f8;
+}
+.logo-detail-fav-img img { display: block; image-rendering: -webkit-optimize-contrast; }

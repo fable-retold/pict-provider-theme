@@ -7,6 +7,7 @@ module.exports =
 	require('./welcome.js'),
 	require('./base-components.js'),
 	require('./theme.js'),
+	require('./logo.js'),
 	require('./modal.js'),
 	require('./code.js'),
 	require('./content.js'),
