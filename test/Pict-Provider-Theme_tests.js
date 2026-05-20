@@ -12,7 +12,7 @@ const libFable = require('fable');
 
 const libPictProviderTheme = require('../source/Pict-Provider-Theme.js');
 
-const _ThemeDefault = require('../source/themes/retold-default.json');
+const _ThemeDefault = require('../source/themes/pict-default.json');
 const _ThemeMono = require('../source/themes/retold-mono.json');
 
 function createStubDocument()
@@ -129,7 +129,7 @@ suite
 						libAssert.strictEqual(tmpProv.registerTheme(_ThemeMono), true);
 						let tmpList = tmpProv.listThemes();
 						libAssert.strictEqual(tmpList.length, 2);
-						libAssert.strictEqual(tmpList[0].Hash, 'retold-default');
+						libAssert.strictEqual(tmpList[0].Hash, 'pict-default');
 						libAssert.strictEqual(tmpList[0].Strategy, 'system');
 						libAssert.strictEqual(tmpList[1].Hash, 'retold-mono');
 						libAssert.strictEqual(tmpList[1].Strategy, 'single');
@@ -179,7 +179,7 @@ suite
 						let tmpDoc = createStubDocument();
 						let tmpProv = createProvider(tmpDoc);
 						tmpProv.registerTheme(_ThemeDefault);
-						libAssert.strictEqual(tmpProv.applyTheme('retold-default', 'light'), true);
+						libAssert.strictEqual(tmpProv.applyTheme('pict-default', 'light'), true);
 
 						let tmpEl = tmpDoc._getStyleEl();
 						libAssert.ok(tmpEl, 'style element should be created');
@@ -204,7 +204,7 @@ suite
 						let tmpDoc = createStubDocument();
 						let tmpProv = createProvider(tmpDoc);
 						tmpProv.registerTheme(_ThemeDefault);
-						tmpProv.applyTheme('retold-default', 'light');
+						tmpProv.applyTheme('pict-default', 'light');
 
 						let tmpCSS = tmpDoc._getStyleEl().textContent;
 						let tmpRootBlock = tmpCSS.split('.theme-dark {')[0];
@@ -225,7 +225,7 @@ suite
 						let tmpDoc = createStubDocument();
 						let tmpProv = createProvider(tmpDoc);
 						tmpProv.registerTheme(_ThemeDefault);
-						tmpProv.applyTheme('retold-default', 'light');
+						tmpProv.applyTheme('pict-default', 'light');
 
 						let tmpClasses = tmpDoc._getHTMLClasses();
 						libAssert.ok(tmpClasses.indexOf('theme-light') >= 0, 'theme-light class set');
@@ -244,7 +244,7 @@ suite
 						let tmpDoc = createStubDocument();
 						let tmpProv = createProvider(tmpDoc);
 						tmpProv.registerTheme(_ThemeDefault);
-						tmpProv.applyTheme('retold-default', 'light');
+						tmpProv.applyTheme('pict-default', 'light');
 						libAssert.strictEqual(tmpProv.setMode('dark'), true);
 
 						let tmpClasses = tmpDoc._getHTMLClasses();
@@ -318,7 +318,7 @@ suite
 						let tmpDoc = createStubDocument();
 						let tmpProv = createProvider(tmpDoc);
 						tmpProv.registerTheme(_ThemeDefault);
-						tmpProv.applyTheme('retold-default', 'light');
+						tmpProv.applyTheme('pict-default', 'light');
 
 						libAssert.strictEqual(tmpProv.token('Tokens.Color.Background.Primary'), '#ffffff');
 						tmpProv.setMode('dark');
@@ -337,9 +337,9 @@ suite
 						let tmpDoc = createStubDocument();
 						let tmpProv = createProvider(tmpDoc);
 						tmpProv.registerTheme(_ThemeDefault);
-						tmpProv.applyTheme('retold-default', 'light');
+						tmpProv.applyTheme('pict-default', 'light');
 						libAssert.strictEqual(tmpProv.token('Tokens.Spacing.MD'), '12px');
-						libAssert.strictEqual(tmpProv.token('Brand.Name'), 'Retold');
+						libAssert.strictEqual(tmpProv.token('Brand.Name'), 'Pict');
 						tearDownDocument();
 						fDone();
 					}
@@ -355,7 +355,7 @@ suite
 						let tmpDoc = createStubDocument();
 						global.document = tmpDoc;
 						tmpProv.registerTheme(_ThemeDefault);
-						tmpProv.applyTheme('retold-default', 'light');
+						tmpProv.applyTheme('pict-default', 'light');
 						libAssert.strictEqual(tmpProv.token('Tokens.Bogus.Path'), null);
 						tearDownDocument();
 						fDone();
@@ -386,7 +386,7 @@ suite
 						let tmpDoc = createStubDocument();
 						let tmpProv = createProvider(tmpDoc);
 						tmpProv.registerTheme(_ThemeDefault);
-						tmpProv.applyTheme('retold-default', 'light');
+						tmpProv.applyTheme('pict-default', 'light');
 						libAssert.strictEqual(tmpProv.svg('Logo'), null);
 						libAssert.strictEqual(tmpProv.image('Hero'), null);
 						tearDownDocument();
@@ -439,7 +439,7 @@ suite
 						tmpProv.registerTheme({
 							Hash: 'retold-pinkbrand',
 							Comprehensive: false,
-							BasedOn: 'retold-default',
+							BasedOn: 'pict-default',
 							Modes: { Strategy: 'system', Default: 'light' },
 							Tokens: {
 								Color: {
@@ -456,7 +456,7 @@ suite
 						libAssert.strictEqual(tmpProv.token('Tokens.Color.Background.Primary'), '#ffffff'); // inherited
 						libAssert.strictEqual(tmpProv.token('Brand.Name'), 'Pink Retold');
 						libAssert.strictEqual(tmpProv.token('Brand.Tagline'),
-							'A suite of JavaScript modules for building web applications and APIs.'); // inherited
+							'A JavaScript MVC framework for building web applications.'); // inherited
 						tearDownDocument();
 						fDone();
 					}
@@ -484,11 +484,11 @@ suite
 							tmpCalls.push({ Hash: pBundle.Hash, Mode: pCtx.Mode, Resolved: pCtx.ResolvedMode });
 						});
 
-						tmpProv.applyTheme('retold-default', 'light');
+						tmpProv.applyTheme('pict-default', 'light');
 						tmpProv.setMode('dark');
 
 						libAssert.strictEqual(tmpCalls.length, 2);
-						libAssert.strictEqual(tmpCalls[0].Hash, 'retold-default');
+						libAssert.strictEqual(tmpCalls[0].Hash, 'pict-default');
 						libAssert.strictEqual(tmpCalls[0].Resolved, 'light');
 						libAssert.strictEqual(tmpCalls[1].Resolved, 'dark');
 
@@ -509,17 +509,17 @@ suite
 						let tmpCalls = 0;
 						let tmpDispose = tmpProv.onApply(() => { tmpCalls++; });
 
-						tmpProv.applyTheme('retold-default', 'light');
+						tmpProv.applyTheme('pict-default', 'light');
 						libAssert.strictEqual(tmpCalls, 1);
 
 						tmpDispose();
-						tmpProv.applyTheme('retold-default', 'dark');
+						tmpProv.applyTheme('pict-default', 'dark');
 						libAssert.strictEqual(tmpCalls, 1, 'should not fire after dispose');
 
 						let fCB = () => { tmpCalls++; };
 						tmpProv.onApply(fCB);
 						tmpProv.offApply(fCB);
-						tmpProv.applyTheme('retold-default', 'light');
+						tmpProv.applyTheme('pict-default', 'light');
 						libAssert.strictEqual(tmpCalls, 1, 'offApply should also unsubscribe');
 
 						tearDownDocument();
@@ -539,7 +539,7 @@ suite
 						tmpProv.onApply(() => { throw new Error('boom'); });
 						let tmpSibling = 0;
 						tmpProv.onApply(() => { tmpSibling++; });
-						tmpProv.applyTheme('retold-default', 'light');
+						tmpProv.applyTheme('pict-default', 'light');
 						libAssert.strictEqual(tmpSibling, 1);
 						tearDownDocument();
 						fDone();
@@ -643,7 +643,7 @@ suite
 						let tmpDoc = createStubDocument();
 						let tmpProv = createProvider(tmpDoc);
 						tmpProv.registerTheme(_ThemeDefault);
-						tmpProv.applyTheme('retold-default', 'dark');
+						tmpProv.applyTheme('pict-default', 'dark');
 
 						// Wire parentNode so removeChild path is exercised.
 						let tmpStyleEl = tmpDoc._getStyleEl();
@@ -740,11 +740,11 @@ suite
 						tmpFable.AppData = {};
 						tmpProvider.pict = tmpFable;
 						tmpProvider.registerTheme(_ThemeDefault);
-						tmpProvider.applyTheme('retold-default', 'light');
+						tmpProvider.applyTheme('pict-default', 'light');
 
 						let tmpExpr = new tmpTemplate(tmpFable, {}, 'TestExpr');
 						libAssert.strictEqual(tmpExpr.render('Tokens.Color.Background.Primary'), '#ffffff');
-						libAssert.strictEqual(tmpExpr.render('Brand.Name'), 'Retold');
+						libAssert.strictEqual(tmpExpr.render('Brand.Name'), 'Pict');
 						libAssert.strictEqual(tmpExpr.render(''), '');
 						tearDownDocument();
 						fDone();

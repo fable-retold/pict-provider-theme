@@ -1,8 +1,8 @@
 {
-	"Hash": "retold-default",
-	"Name": "Retold Default",
+	"Hash": "pict-default",
+	"Name": "Pict Default",
 	"Version": "0.0.1",
-	"Description": "The reference paired light/dark theme for the Retold ecosystem. Neutral palette suitable for any app; dark mode is mid-grey rather than pure black to reduce eye strain.",
+	"Description": "The reference paired light/dark theme for pict-based applications. Neutral palette suitable for any app; dark mode is mid-grey rather than pure black to reduce eye strain.",
 	"Comprehensive": true,
 	"Modes": {
 		"Strategy": "system",
@@ -118,7 +118,7 @@
 		}
 	},
 	"Brand": {
-		"Name": "Retold",
-		"Tagline": "A suite of JavaScript modules for building web applications and APIs."
+		"Name": "Pict",
+		"Tagline": "A JavaScript MVC framework for building web applications."
 	}
 }
