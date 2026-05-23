@@ -1,0 +1,43 @@
+{
+	"Generated": "2026-05-23T01:50:44.516Z",
+	"Mode": "module",
+	"GitHubOrg": "stevenvelozo",
+	"DefaultBranch": "master",
+	"Module": {
+		"Name": "pict-provider-theme",
+		"Repo": "pict-provider-theme",
+		"Group": "",
+		"Branch": "master",
+		"HasDocs": true,
+		"HasCover": false,
+		"Sidebar": [
+			{
+				"Title": "Getting Started",
+				"Children": [
+					{
+						"Title": "Overview",
+						"Path": "README.md"
+					}
+				]
+			},
+			{
+				"Title": "Examples",
+				"Children": [
+					{
+						"Title": "Theme Playground",
+						"Path": "#/page/examples/theme-playground/README"
+					}
+				]
+			}
+		],
+		"DocFiles": [
+			"README.md",
+			"_sidebar.md",
+			"examples/README.md",
+			"examples/theme-playground/README.md",
+			"examples/theme-playground/index.html",
+			"examples/theme-playground/playground.css"
+		]
+	},
+	"Groups": []
+}

@@ -1,0 +1,6542 @@
+{
+	"Generated": "2026-05-23T01:50:44.656Z",
+	"Mode": "module",
+	"DocumentCount": 3,
+	"LunrIndex": {
+		"version": "2.3.9",
+		"fields": [
+			"title",
+			"module",
+			"group",
+			"body"
+		],
+		"fieldVectors": [
+			[
+				"title/README.md",
+				[
+					0,
+					1.836
+				]
+			],
+			[
+				"module/README.md",
+				[
+					1,
+					1.627,
+					2,
+					0.527,
+					3,
+					1.915
+				]
+			],
+			[
+				"group/README.md",
+				[]
+			],
+			[
+				"body/README.md",
+				[
+					0,
+					0.212,
+					1,
+					0.517,
+					3,
+					0.707,
+					4,
+					0.194,
+					5,
+					0.194,
+					6,
+					0.26,
+					7,
+					1.558,
+					8,
+					0.211,
+					9,
+					0.747,
+					10,
+					0.747,
+					11,
+					0.747,
+					12,
+					0.747,
+					13,
+					0.747,
+					14,
+					0.167,
+					15,
+					0.167,
+					16,
+					0.167,
+					17,
+					0.212,
+					18,
+					0.212,
+					19,
+					0.212,
+					20,
+					0.212,
+					21,
+					0.212,
+					22,
+					0.212,
+					23,
+					0.212,
+					24,
+					0.212,
+					25,
+					0.212,
+					26,
+					0.212,
+					27,
+					0.747,
+					28,
+					0.212,
+					29,
+					0.212,
+					30,
+					0.212,
+					31,
+					0.212,
+					32,
+					0.212,
+					33,
+					0.212,
+					34,
+					0.212,
+					35,
+					0.747
+				]
+			],
+			[
+				"title/examples/README.md",
+				[
+					4,
+					1.22,
+					5,
+					1.22
+				]
+			],
+			[
+				"module/examples/README.md",
+				[
+					1,
+					1.627,
+					2,
+					0.527,
+					3,
+					1.915
+				]
+			],
+			[
+				"group/examples/README.md",
+				[]
+			],
+			[
+				"body/examples/README.md",
+				[
+					1,
+					0.512,
+					3,
+					0.703,
+					4,
+					0.205,
+					5,
+					0.166,
+					6,
+					0.259,
+					8,
+					0.226,
+					14,
+					0.166,
+					15,
+					0.166,
+					16,
+					0.166,
+					17,
+					0.21,
+					18,
+					0.21,
+					19,
+					0.21,
+					20,
+					0.21,
+					21,
+					0.21,
+					22,
+					0.21,
+					23,
+					0.21,
+					24,
+					0.21,
+					25,
+					0.21,
+					26,
+					0.21,
+					27,
+					0.739,
+					28,
+					0.21,
+					29,
+					0.21,
+					30,
+					0.21,
+					31,
+					0.21,
+					32,
+					0.21,
+					33,
+					0.21,
+					34,
+					0.21,
+					36,
+					1.543,
+					37,
+					1.543,
+					38,
+					1.543
+				]
+			],
+			[
+				"title/examples/theme-playground/README.md",
+				[
+					3,
+					4.11,
+					8,
+					0.748,
+					14,
+					0.748,
+					15,
+					0.748,
+					16,
+					0.748
+				]
+			],
+			[
+				"module/examples/theme-playground/README.md",
+				[
+					1,
+					1.627,
+					2,
+					0.527,
+					3,
+					1.915
+				]
+			],
+			[
+				"group/examples/theme-playground/README.md",
+				[]
+			],
+			[
+				"body/examples/theme-playground/README.md",
+				[
+					0,
+					0.077,
+					1,
+					0.559,
+					2,
+					0.181,
+					3,
+					0.783,
+					4,
+					0.061,
+					5,
+					0.158,
+					6,
+					0.2,
+					8,
+					0.227,
+					9,
+					0.704,
+					10,
+					0.533,
+					11,
+					0.704,
+					12,
+					0.533,
+					13,
+					0.271,
+					14,
+					0.188,
+					15,
+					0.061,
+					16,
+					0.096,
+					17,
+					0.247,
+					18,
+					0.265,
+					19,
+					0.247,
+					20,
+					0.172,
+					21,
+					0.2,
+					22,
+					0.077,
+					23,
+					0.077,
+					24,
+					0.264,
+					25,
+					0.172,
+					26,
+					0.224,
+					28,
+					0.077,
+					29,
+					0.238,
+					30,
+					0.172,
+					31,
+					0.229,
+					32,
+					0.272,
+					33,
+					0.077,
+					34,
+					0.077,
+					35,
+					0.429,
+					39,
+					1.38,
+					40,
+					0.565,
+					41,
+					0.896,
+					42,
+					0.896,
+					43,
+					1.817,
+					44,
+					1.38,
+					45,
+					0.565,
+					46,
+					0.896,
+					47,
+					1.38,
+					48,
+					1.113,
+					49,
+					0.896,
+					50,
+					1.113,
+					51,
+					0.896,
+					52,
+					1.774,
+					53,
+					1.113,
+					54,
+					1.468,
+					55,
+					1.266,
+					56,
+					0.565,
+					57,
+					1.38,
+					58,
+					0.565,
+					59,
+					1.596,
+					60,
+					0.896,
+					61,
+					0.565,
+					62,
+					1.266,
+					63,
+					0.896,
+					64,
+					1.468,
+					65,
+					0.565,
+					66,
+					1.684,
+					67,
+					0.565,
+					68,
+					1.38,
+					69,
+					0.565,
+					70,
+					0.896,
+					71,
+					0.565,
+					72,
+					0.565,
+					73,
+					0.896,
+					74,
+					1.266,
+					75,
+					1.113,
+					76,
+					0.565,
+					77,
+					1.113,
+					78,
+					1.38,
+					79,
+					1.113,
+					80,
+					0.565,
+					81,
+					0.896,
+					82,
+					1.113,
+					83,
+					0.896,
+					84,
+					0.565,
+					85,
+					0.896,
+					86,
+					1.468,
+					87,
+					0.565,
+					88,
+					1.643,
+					89,
+					1.38,
+					90,
+					1.38,
+					91,
+					0.565,
+					92,
+					1.643,
+					93,
+					1.266,
+					94,
+					0.896,
+					95,
+					1.468,
+					96,
+					1.266,
+					97,
+					1.596,
+					98,
+					1.596,
+					99,
+					1.266,
+					100,
+					0.565,
+					101,
+					1.266,
+					102,
+					0.896,
+					103,
+					1.113,
+					104,
+					0.565,
+					105,
+					1.113,
+					106,
+					0.896,
+					107,
+					1.38,
+					108,
+					1.266,
+					109,
+					1.113,
+					110,
+					0.896,
+					111,
+					1.718,
+					112,
+					0.896,
+					113,
+					1.266,
+					114,
+					1.113,
+					115,
+					0.896,
+					116,
+					1.266,
+					117,
+					1.113,
+					118,
+					1.113,
+					119,
+					1.113,
+					120,
+					1.113,
+					121,
+					1.266,
+					122,
+					0.896,
+					123,
+					0.896,
+					124,
+					0.565,
+					125,
+					0.565,
+					126,
+					1.266,
+					127,
+					1.468,
+					128,
+					1.113,
+					129,
+					1.113,
+					130,
+					1.266,
+					131,
+					0.896,
+					132,
+					1.113,
+					133,
+					0.565,
+					134,
+					0.565,
+					135,
+					0.896,
+					136,
+					0.565,
+					137,
+					1.113,
+					138,
+					1.113,
+					139,
+					1.596,
+					140,
+					1.113,
+					141,
+					0.896,
+					142,
+					1.38,
+					143,
+					1.266,
+					144,
+					1.266,
+					145,
+					1.113,
+					146,
+					0.896,
+					147,
+					0.565,
+					148,
+					0.565,
+					149,
+					0.565,
+					150,
+					0.896,
+					151,
+					1.113,
+					152,
+					1.266,
+					153,
+					0.896,
+					154,
+					0.565,
+					155,
+					1.266,
+					156,
+					1.38,
+					157,
+					1.38,
+					158,
+					0.896,
+					159,
+					1.113,
+					160,
+					0.896,
+					161,
+					1.38,
+					162,
+					0.896,
+					163,
+					0.565,
+					164,
+					1.266,
+					165,
+					0.896,
+					166,
+					0.565,
+					167,
+					0.565,
+					168,
+					0.896,
+					169,
+					0.896,
+					170,
+					0.565,
+					171,
+					1.266,
+					172,
+					1.113,
+					173,
+					0.896,
+					174,
+					1.266,
+					175,
+					1.718,
+					176,
+					0.565,
+					177,
+					0.565,
+					178,
+					1.113,
+					179,
+					0.896,
+					180,
+					1.266,
+					181,
+					1.266,
+					182,
+					1.113,
+					183,
+					0.565,
+					184,
+					1.38,
+					185,
+					1.38,
+					186,
+					0.896,
+					187,
+					0.565,
+					188,
+					0.565,
+					189,
+					1.266,
+					190,
+					1.38,
+					191,
+					0.565,
+					192,
+					0.565,
+					193,
+					0.565,
+					194,
+					0.565,
+					195,
+					1.643,
+					196,
+					0.565,
+					197,
+					0.896,
+					198,
+					1.266,
+					199,
+					0.565,
+					200,
+					0.565,
+					201,
+					0.896,
+					202,
+					0.565,
+					203,
+					0.565,
+					204,
+					0.565,
+					205,
+					0.565,
+					206,
+					0.896,
+					207,
+					1.113,
+					208,
+					0.565,
+					209,
+					0.565,
+					210,
+					1.38,
+					211,
+					1.113,
+					212,
+					0.896,
+					213,
+					0.565,
+					214,
+					0.565,
+					215,
+					0.896,
+					216,
+					0.565,
+					217,
+					1.113,
+					218,
+					0.565,
+					219,
+					0.565,
+					220,
+					1.113,
+					221,
+					0.896,
+					222,
+					0.565,
+					223,
+					0.565,
+					224,
+					0.565,
+					225,
+					0.896,
+					226,
+					0.896,
+					227,
+					0.896,
+					228,
+					0.565,
+					229,
+					0.565,
+					230,
+					0.565,
+					231,
+					0.565,
+					232,
+					1.113,
+					233,
+					1.113,
+					234,
+					1.113,
+					235,
+					0.896,
+					236,
+					0.565,
+					237,
+					0.565,
+					238,
+					0.565,
+					239,
+					0.565,
+					240,
+					0.565,
+					241,
+					0.896,
+					242,
+					0.896,
+					243,
+					1.266,
+					244,
+					0.565,
+					245,
+					0.565,
+					246,
+					0.896,
+					247,
+					0.565,
+					248,
+					0.565,
+					249,
+					0.565,
+					250,
+					0.565,
+					251,
+					0.565,
+					252,
+					0.565,
+					253,
+					1.113,
+					254,
+					0.565,
+					255,
+					0.565,
+					256,
+					1.113,
+					257,
+					0.896,
+					258,
+					0.565,
+					259,
+					0.896,
+					260,
+					0.565,
+					261,
+					0.565,
+					262,
+					0.896,
+					263,
+					0.565,
+					264,
+					0.565,
+					265,
+					0.565,
+					266,
+					0.896,
+					267,
+					0.565,
+					268,
+					1.113,
+					269,
+					0.565,
+					270,
+					0.565,
+					271,
+					0.565,
+					272,
+					0.565,
+					273,
+					0.565,
+					274,
+					0.565,
+					275,
+					0.565,
+					276,
+					0.565,
+					277,
+					1.113,
+					278,
+					0.896,
+					279,
+					0.896,
+					280,
+					0.565,
+					281,
+					0.896,
+					282,
+					0.565,
+					283,
+					0.565,
+					284,
+					0.565,
+					285,
+					0.896,
+					286,
+					0.565,
+					287,
+					0.565,
+					288,
+					0.565,
+					289,
+					0.565,
+					290,
+					0.565,
+					291,
+					0.565,
+					292,
+					0.565,
+					293,
+					0.565,
+					294,
+					0.896,
+					295,
+					1.113,
+					296,
+					0.565,
+					297,
+					1.38,
+					298,
+					1.596,
+					299,
+					0.565,
+					300,
+					0.896,
+					301,
+					0.565,
+					302,
+					0.565,
+					303,
+					0.565,
+					304,
+					1.266,
+					305,
+					0.565,
+					306,
+					0.565,
+					307,
+					0.565,
+					308,
+					0.896,
+					309,
+					0.896,
+					310,
+					0.896,
+					311,
+					0.896,
+					312,
+					0.565,
+					313,
+					1.113,
+					314,
+					0.896,
+					315,
+					0.565,
+					316,
+					0.565,
+					317,
+					0.565,
+					318,
+					0.896,
+					319,
+					0.896,
+					320,
+					0.565,
+					321,
+					0.565,
+					322,
+					0.565,
+					323,
+					0.565,
+					324,
+					0.565,
+					325,
+					0.565,
+					326,
+					0.565,
+					327,
+					0.565,
+					328,
+					0.565,
+					329,
+					0.896,
+					330,
+					0.565,
+					331,
+					0.896,
+					332,
+					0.565,
+					333,
+					0.565,
+					334,
+					0.565,
+					335,
+					0.565,
+					336,
+					0.565,
+					337,
+					0.565,
+					338,
+					0.565,
+					339,
+					0.565,
+					340,
+					0.896,
+					341,
+					0.565,
+					342,
+					0.565,
+					343,
+					0.565,
+					344,
+					0.565,
+					345,
+					0.565,
+					346,
+					0.565,
+					347,
+					1.113,
+					348,
+					0.565,
+					349,
+					0.565,
+					350,
+					0.565,
+					351,
+					0.565,
+					352,
+					0.565,
+					353,
+					0.565,
+					354,
+					0.565,
+					355,
+					0.565,
+					356,
+					0.565,
+					357,
+					0.565,
+					358,
+					0.896,
+					359,
+					0.896,
+					360,
+					0.565,
+					361,
+					0.896,
+					362,
+					1.113,
+					363,
+					0.565,
+					364,
+					0.565,
+					365,
+					0.565,
+					366,
+					0.565,
+					367,
+					0.565,
+					368,
+					0.565,
+					369,
+					0.565,
+					370,
+					0.565,
+					371,
+					0.565,
+					372,
+					0.896,
+					373,
+					0.565,
+					374,
+					0.565,
+					375,
+					0.565,
+					376,
+					0.565,
+					377,
+					0.565,
+					378,
+					0.896,
+					379,
+					1.113,
+					380,
+					0.565,
+					381,
+					0.896,
+					382,
+					0.896,
+					383,
+					0.565,
+					384,
+					0.565,
+					385,
+					0.565,
+					386,
+					0.565,
+					387,
+					0.565,
+					388,
+					0.565,
+					389,
+					0.565,
+					390,
+					0.896,
+					391,
+					0.565,
+					392,
+					0.565,
+					393,
+					0.565,
+					394,
+					0.896,
+					395,
+					0.896,
+					396,
+					0.565,
+					397,
+					0.565,
+					398,
+					0.565,
+					399,
+					0.565,
+					400,
+					0.565,
+					401,
+					0.565,
+					402,
+					0.565,
+					403,
+					0.565,
+					404,
+					0.565,
+					405,
+					0.565,
+					406,
+					0.565,
+					407,
+					0.565,
+					408,
+					0.565,
+					409,
+					0.565,
+					410,
+					0.565,
+					411,
+					0.565,
+					412,
+					0.565,
+					413,
+					0.565,
+					414,
+					0.565,
+					415,
+					0.565,
+					416,
+					0.565,
+					417,
+					0.565,
+					418,
+					0.565,
+					419,
+					0.565,
+					420,
+					0.565,
+					421,
+					0.565,
+					422,
+					0.565,
+					423,
+					0.565,
+					424,
+					0.565,
+					425,
+					0.565,
+					426,
+					0.565,
+					427,
+					0.565,
+					428,
+					0.565,
+					429,
+					0.565,
+					430,
+					0.565,
+					431,
+					0.896,
+					432,
+					0.565,
+					433,
+					0.565,
+					434,
+					0.565,
+					435,
+					0.565,
+					436,
+					0.565,
+					437,
+					0.565,
+					438,
+					0.565,
+					439,
+					0.896,
+					440,
+					0.565,
+					441,
+					0.565,
+					442,
+					0.896
+				]
+			]
+		],
+		"invertedIndex": [
+			[
+				"",
+				{
+					"_index": 8,
+					"title": {
+						"examples/theme-playground/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"1",
+				{
+					"_index": 196,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"2",
+				{
+					"_index": 222,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"20",
+				{
+					"_index": 134,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"3",
+				{
+					"_index": 251,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"4",
+				{
+					"_index": 275,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"5",
+				{
+					"_index": 296,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"6",
+				{
+					"_index": 321,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"7",
+				{
+					"_index": 336,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"8",
+				{
+					"_index": 349,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"9",
+				{
+					"_index": 374,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"9654",
+				{
+					"_index": 33,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"abov",
+				{
+					"_index": 291,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"accept",
+				{
+					"_index": 266,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"accumul",
+				{
+					"_index": 289,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"activ",
+				{
+					"_index": 90,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"ad",
+				{
+					"_index": 371,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"add",
+				{
+					"_index": 197,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"address",
+				{
+					"_index": 208,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"advanc",
+				{
+					"_index": 38,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {}
+					}
+				}
+			],
+			[
+				"again",
+				{
+					"_index": 240,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"against",
+				{
+					"_index": 51,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"alias",
+				{
+					"_index": 428,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"alon",
+				{
+					"_index": 284,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"anoth",
+				{
+					"_index": 329,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"app",
+				{
+					"_index": 35,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"append",
+				{
+					"_index": 407,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"appli",
+				{
+					"_index": 397,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"applic",
+				{
+					"_index": 5,
+					"title": {
+						"examples/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"arbitrari",
+				{
+					"_index": 223,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"array",
+				{
+					"_index": 158,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"asset",
+				{
+					"_index": 319,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"author",
+				{
+					"_index": 333,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"automat",
+				{
+					"_index": 308,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"auxiliari",
+				{
+					"_index": 108,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"avatar",
+				{
+					"_index": 312,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"awar",
+				{
+					"_index": 78,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"back",
+				{
+					"_index": 100,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"base",
+				{
+					"_index": 164,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"base64",
+				{
+					"_index": 305,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"becom",
+				{
+					"_index": 207,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"befor",
+				{
+					"_index": 80,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"below",
+				{
+					"_index": 285,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"besid",
+				{
+					"_index": 106,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"between",
+				{
+					"_index": 379,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"binari",
+				{
+					"_index": 299,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"block",
+				{
+					"_index": 175,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"boot",
+				{
+					"_index": 126,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"both",
+				{
+					"_index": 259,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"bottombar",
+				{
+					"_index": 436,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"brand",
+				{
+					"_index": 174,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"brand'",
+				{
+					"_index": 426,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"browser",
+				{
+					"_index": 12,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"build",
+				{
+					"_index": 75,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"builder",
+				{
+					"_index": 16,
+					"title": {
+						"examples/theme-playground/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"built",
+				{
+					"_index": 166,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"bundl",
+				{
+					"_index": 32,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"bundle'",
+				{
+					"_index": 110,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"button",
+				{
+					"_index": 139,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"call",
+				{
+					"_index": 88,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"canon",
+				{
+					"_index": 325,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"capabl",
+				{
+					"_index": 84,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"captur",
+				{
+					"_index": 405,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"carri",
+				{
+					"_index": 277,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"cascad",
+				{
+					"_index": 74,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"case",
+				{
+					"_index": 423,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"catalog",
+				{
+					"_index": 87,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"chang",
+				{
+					"_index": 236,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"cheap",
+				{
+					"_index": 360,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"check",
+				{
+					"_index": 335,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"chrome",
+				{
+					"_index": 155,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"class",
+				{
+					"_index": 143,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"clear",
+				{
+					"_index": 401,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"cli",
+				{
+					"_index": 328,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"click",
+				{
+					"_index": 304,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"color",
+				{
+					"_index": 59,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"column",
+				{
+					"_index": 154,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"commit",
+				{
+					"_index": 81,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"common",
+				{
+					"_index": 422,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"compil",
+				{
+					"_index": 30,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"complex",
+				{
+					"_index": 36,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {}
+					}
+				}
+			],
+			[
+				"compon",
+				{
+					"_index": 25,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"concis",
+				{
+					"_index": 365,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"configur",
+				{
+					"_index": 367,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"consum",
+				{
+					"_index": 242,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"contain",
+				{
+					"_index": 317,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"contribut",
+				{
+					"_index": 353,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"control",
+				{
+					"_index": 200,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"copi",
+				{
+					"_index": 211,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"corp",
+				{
+					"_index": 396,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"cover",
+				{
+					"_index": 421,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"css",
+				{
+					"_index": 19,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"curat",
+				{
+					"_index": 176,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"current",
+				{
+					"_index": 118,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"custom",
+				{
+					"_index": 47,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"dark",
+				{
+					"_index": 398,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"data",
+				{
+					"_index": 297,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"declar",
+				{
+					"_index": 366,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"deep",
+				{
+					"_index": 128,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"default",
+				{
+					"_index": 293,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"defer",
+				{
+					"_index": 370,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"defin",
+				{
+					"_index": 205,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"demo",
+				{
+					"_index": 70,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"demonstr",
+				{
+					"_index": 83,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"descriptor",
+				{
+					"_index": 159,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"design",
+				{
+					"_index": 427,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"destin",
+				{
+					"_index": 354,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"detect",
+				{
+					"_index": 229,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"diff",
+				{
+					"_index": 250,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"differ",
+				{
+					"_index": 186,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"digit",
+				{
+					"_index": 262,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"directli",
+				{
+					"_index": 198,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"dispatch",
+				{
+					"_index": 375,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"display",
+				{
+					"_index": 385,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"div",
+				{
+					"_index": 355,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"document",
+				{
+					"_index": 0,
+					"title": {
+						"README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"dom",
+				{
+					"_index": 63,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"download",
+				{
+					"_index": 117,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"dozen",
+				{
+					"_index": 415,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"drag",
+				{
+					"_index": 112,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"drop",
+				{
+					"_index": 113,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"dropzon",
+				{
+					"_index": 116,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"each",
+				{
+					"_index": 9,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"earli",
+				{
+					"_index": 204,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"edit",
+				{
+					"_index": 17,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"editor",
+				{
+					"_index": 156,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"element",
+				{
+					"_index": 241,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"embed",
+				{
+					"_index": 313,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"emit",
+				{
+					"_index": 232,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"enabl",
+				{
+					"_index": 218,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"encod",
+				{
+					"_index": 306,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"entir",
+				{
+					"_index": 219,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"entri",
+				{
+					"_index": 161,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"etc",
+				{
+					"_index": 431,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"everyth",
+				{
+					"_index": 41,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"exactli",
+				{
+					"_index": 359,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"exampl",
+				{
+					"_index": 4,
+					"title": {
+						"examples/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"exist",
+				{
+					"_index": 363,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"expand",
+				{
+					"_index": 264,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"explicit",
+				{
+					"_index": 199,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"export",
+				{
+					"_index": 29,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"expos",
+				{
+					"_index": 42,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"express",
+				{
+					"_index": 283,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"extern",
+				{
+					"_index": 120,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"famili",
+				{
+					"_index": 271,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"featur",
+				{
+					"_index": 195,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"feed",
+				{
+					"_index": 327,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"fetch",
+				{
+					"_index": 123,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"field",
+				{
+					"_index": 258,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"file",
+				{
+					"_index": 89,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"filenam",
+				{
+					"_index": 307,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"first",
+				{
+					"_index": 361,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"flip",
+				{
+					"_index": 378,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"flow",
+				{
+					"_index": 61,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"follow",
+				{
+					"_index": 141,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"font",
+				{
+					"_index": 270,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"form",
+				{
+					"_index": 268,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"frame",
+				{
+					"_index": 399,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"free",
+				{
+					"_index": 433,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"fulli",
+				{
+					"_index": 315,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"function",
+				{
+					"_index": 148,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"galleri",
+				{
+					"_index": 26,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"get",
+				{
+					"_index": 257,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"half",
+				{
+					"_index": 237,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"handl",
+				{
+					"_index": 424,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"happen",
+				{
+					"_index": 149,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"hardcod",
+				{
+					"_index": 58,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"hash",
+				{
+					"_index": 190,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"header",
+				{
+					"_index": 138,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"helper",
+				{
+					"_index": 364,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"here",
+				{
+					"_index": 150,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"hero",
+				{
+					"_index": 302,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"hex",
+				{
+					"_index": 255,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"honour",
+				{
+					"_index": 73,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"hook",
+				{
+					"_index": 345,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"host",
+				{
+					"_index": 152,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"html",
+				{
+					"_index": 191,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"idempot",
+				{
+					"_index": 214,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"ifram",
+				{
+					"_index": 136,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"imag",
+				{
+					"_index": 114,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"imageri",
+				{
+					"_index": 21,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"immedi",
+				{
+					"_index": 220,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"includ",
+				{
+					"_index": 406,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"indent",
+				{
+					"_index": 323,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"initi",
+				{
+					"_index": 310,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"inject",
+				{
+					"_index": 48,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"inner",
+				{
+					"_index": 171,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"input",
+				{
+					"_index": 97,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"insid",
+				{
+					"_index": 133,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"instanc",
+				{
+					"_index": 202,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"instantli",
+				{
+					"_index": 28,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"integr",
+				{
+					"_index": 341,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"interact",
+				{
+					"_index": 15,
+					"title": {
+						"examples/theme-playground/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"javascript",
+				{
+					"_index": 248,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"json",
+				{
+					"_index": 31,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"keep",
+				{
+					"_index": 429,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"key",
+				{
+					"_index": 142,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"know",
+				{
+					"_index": 417,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"land",
+				{
+					"_index": 261,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"launch",
+				{
+					"_index": 34,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"layout",
+				{
+					"_index": 145,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"leaf",
+				{
+					"_index": 226,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"leav",
+				{
+					"_index": 230,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"left",
+				{
+					"_index": 350,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"legaci",
+				{
+					"_index": 179,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"letter",
+				{
+					"_index": 311,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"lib",
+				{
+					"_index": 194,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"lifecycl",
+				{
+					"_index": 135,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"light/dark",
+				{
+					"_index": 93,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"link",
+				{
+					"_index": 129,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"liter",
+				{
+					"_index": 256,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"live",
+				{
+					"_index": 6,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"load",
+				{
+					"_index": 408,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"logo",
+				{
+					"_index": 300,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"long",
+				{
+					"_index": 267,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"look",
+				{
+					"_index": 79,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"loop",
+				{
+					"_index": 221,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"make",
+				{
+					"_index": 340,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"mani",
+				{
+					"_index": 413,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"mark",
+				{
+					"_index": 301,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"match",
+				{
+					"_index": 357,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"mean",
+				{
+					"_index": 346,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"media",
+				{
+					"_index": 377,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"method",
+				{
+					"_index": 203,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"modal",
+				{
+					"_index": 439,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"mode",
+				{
+					"_index": 43,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"modetoggl",
+				{
+					"_index": 437,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"modifi",
+				{
+					"_index": 216,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"modul",
+				{
+					"_index": 178,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"mutat",
+				{
+					"_index": 212,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"name",
+				{
+					"_index": 403,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"nativ",
+				{
+					"_index": 102,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"nav",
+				{
+					"_index": 127,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"navig",
+				{
+					"_index": 409,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"need",
+				{
+					"_index": 362,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"nest",
+				{
+					"_index": 224,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"new",
+				{
+					"_index": 11,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"next",
+				{
+					"_index": 245,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"non",
+				{
+					"_index": 269,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"noth",
+				{
+					"_index": 56,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"now",
+				{
+					"_index": 239,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"object",
+				{
+					"_index": 225,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"older",
+				{
+					"_index": 432,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"on",
+				{
+					"_index": 66,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"onc",
+				{
+					"_index": 206,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"onto",
+				{
+					"_index": 404,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"open",
+				{
+					"_index": 10,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"option",
+				{
+					"_index": 326,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"order",
+				{
+					"_index": 160,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"origin",
+				{
+					"_index": 213,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"os",
+				{
+					"_index": 381,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"over",
+				{
+					"_index": 201,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"overrid",
+				{
+					"_index": 294,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"page",
+				{
+					"_index": 82,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"paint",
+				{
+					"_index": 55,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"pair",
+				{
+					"_index": 92,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"palett",
+				{
+					"_index": 187,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"panel",
+				{
+					"_index": 358,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"param",
+				{
+					"_index": 122,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"paramet",
+				{
+					"_index": 337,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"pars",
+				{
+					"_index": 104,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"parti",
+				{
+					"_index": 125,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"pass",
+				{
+					"_index": 215,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"per",
+				{
+					"_index": 233,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"pick",
+				{
+					"_index": 189,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"picker",
+				{
+					"_index": 105,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"pict",
+				{
+					"_index": 1,
+					"title": {},
+					"module": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"pipelin",
+				{
+					"_index": 320,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"place",
+				{
+					"_index": 290,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"plain",
+				{
+					"_index": 162,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"playground",
+				{
+					"_index": 14,
+					"title": {
+						"examples/theme-playground/README.md": {}
+					},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"playground'",
+				{
+					"_index": 331,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"plu",
+				{
+					"_index": 372,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"png",
+				{
+					"_index": 115,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"predic",
+				{
+					"_index": 231,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"present",
+				{
+					"_index": 338,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"preserv",
+				{
+					"_index": 238,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"preview",
+				{
+					"_index": 344,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"previou",
+				{
+					"_index": 288,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"primari",
+				{
+					"_index": 332,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"primit",
+				{
+					"_index": 227,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"properti",
+				{
+					"_index": 180,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"prototyp",
+				{
+					"_index": 71,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"provid",
+				{
+					"_index": 2,
+					"title": {},
+					"module": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"provider/view",
+				{
+					"_index": 292,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"pull",
+				{
+					"_index": 192,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"pure",
+				{
+					"_index": 188,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"purpos",
+				{
+					"_index": 69,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"queri",
+				{
+					"_index": 121,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"radii",
+				{
+					"_index": 274,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"rail",
+				{
+					"_index": 351,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"re",
+				{
+					"_index": 54,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"react",
+				{
+					"_index": 249,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"read",
+				{
+					"_index": 243,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"readi",
+				{
+					"_index": 119,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"real",
+				{
+					"_index": 132,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"reappli",
+				{
+					"_index": 418,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"rebuild",
+				{
+					"_index": 131,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"rebuilt",
+				{
+					"_index": 352,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"recalc",
+				{
+					"_index": 247,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"refer",
+				{
+					"_index": 40,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"referenc",
+				{
+					"_index": 339,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"reflect",
+				{
+					"_index": 383,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"reflow",
+				{
+					"_index": 27,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {}
+					}
+				}
+			],
+			[
+				"regardless",
+				{
+					"_index": 386,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"regist",
+				{
+					"_index": 111,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"registr",
+				{
+					"_index": 85,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"registri",
+				{
+					"_index": 144,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"relat",
+				{
+					"_index": 434,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"remap",
+				{
+					"_index": 430,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"render",
+				{
+					"_index": 95,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"repaint",
+				{
+					"_index": 64,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"replac",
+				{
+					"_index": 217,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"repres",
+				{
+					"_index": 23,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"requir",
+				{
+					"_index": 373,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"resolv",
+				{
+					"_index": 181,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"rest",
+				{
+					"_index": 425,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"result",
+				{
+					"_index": 314,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"return",
+				{
+					"_index": 167,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"revert",
+				{
+					"_index": 402,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"rewrit",
+				{
+					"_index": 419,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"ride",
+				{
+					"_index": 280,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"rider",
+				{
+					"_index": 109,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"right",
+				{
+					"_index": 53,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"rout",
+				{
+					"_index": 130,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"router",
+				{
+					"_index": 411,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"row",
+				{
+					"_index": 94,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"rule",
+				{
+					"_index": 279,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"run",
+				{
+					"_index": 39,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"runnabl",
+				{
+					"_index": 7,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {}
+					}
+				}
+			],
+			[
+				"same",
+				{
+					"_index": 184,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"saniti",
+				{
+					"_index": 334,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"scale",
+				{
+					"_index": 45,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"scaleselect",
+				{
+					"_index": 438,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"screen",
+				{
+					"_index": 67,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"seam",
+				{
+					"_index": 342,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"second",
+				{
+					"_index": 183,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"section",
+				{
+					"_index": 24,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"section'",
+				{
+					"_index": 146,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"see",
+				{
+					"_index": 77,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"seed",
+				{
+					"_index": 173,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"select",
+				{
+					"_index": 46,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"selector",
+				{
+					"_index": 286,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"self",
+				{
+					"_index": 316,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"separ",
+				{
+					"_index": 318,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"serial",
+				{
+					"_index": 322,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"server",
+				{
+					"_index": 392,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"set",
+				{
+					"_index": 177,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"setup",
+				{
+					"_index": 147,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"shape",
+				{
+					"_index": 185,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"shareabl",
+				{
+					"_index": 348,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"shell",
+				{
+					"_index": 151,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"ship",
+				{
+					"_index": 278,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"shorthand",
+				{
+					"_index": 263,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"shot",
+				{
+					"_index": 303,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"show",
+				{
+					"_index": 347,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"side",
+				{
+					"_index": 235,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"singl",
+				{
+					"_index": 68,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"sit",
+				{
+					"_index": 414,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"six",
+				{
+					"_index": 265,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"size",
+				{
+					"_index": 272,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"slot",
+				{
+					"_index": 295,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"sniff",
+				{
+					"_index": 254,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"sourc",
+				{
+					"_index": 387,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"space",
+				{
+					"_index": 273,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"specif",
+				{
+					"_index": 281,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"spread",
+				{
+					"_index": 400,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"stage",
+				{
+					"_index": 356,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"starter",
+				{
+					"_index": 395,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"static",
+				{
+					"_index": 390,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"step",
+				{
+					"_index": 389,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"store",
+				{
+					"_index": 209,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"strategi",
+				{
+					"_index": 137,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"stringli",
+				{
+					"_index": 252,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"style",
+				{
+					"_index": 246,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"stylesheet",
+				{
+					"_index": 420,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"subscrib",
+				{
+					"_index": 376,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"summari",
+				{
+					"_index": 37,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/README.md": {}
+					}
+				}
+			],
+			[
+				"surfac",
+				{
+					"_index": 442,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"swap",
+				{
+					"_index": 309,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"swatch",
+				{
+					"_index": 103,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"switch",
+				{
+					"_index": 44,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"system",
+				{
+					"_index": 140,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"tab",
+				{
+					"_index": 13,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"takeaway",
+				{
+					"_index": 412,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"text",
+				{
+					"_index": 107,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"textarea",
+				{
+					"_index": 157,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"theme",
+				{
+					"_index": 3,
+					"title": {
+						"examples/theme-playground/README.md": {}
+					},
+					"module": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"theme'",
+				{
+					"_index": 182,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"thin",
+				{
+					"_index": 391,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"thing",
+				{
+					"_index": 393,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"third",
+				{
+					"_index": 124,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"those",
+				{
+					"_index": 244,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"three",
+				{
+					"_index": 153,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"through",
+				{
+					"_index": 101,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"tilt",
+				{
+					"_index": 287,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"time",
+				{
+					"_index": 260,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"tini",
+				{
+					"_index": 368,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"title/blurb",
+				{
+					"_index": 369,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"title/blurb/contain",
+				{
+					"_index": 170,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"toast",
+				{
+					"_index": 440,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"toggl",
+				{
+					"_index": 382,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"token",
+				{
+					"_index": 18,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"tool",
+				{
+					"_index": 343,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"tooltip",
+				{
+					"_index": 441,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"topbar",
+				{
+					"_index": 435,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"transform",
+				{
+					"_index": 330,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"travel",
+				{
+					"_index": 276,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"tri",
+				{
+					"_index": 394,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"trigger",
+				{
+					"_index": 324,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"truth",
+				{
+					"_index": 388,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"tweak",
+				{
+					"_index": 282,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"two",
+				{
+					"_index": 96,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"type",
+				{
+					"_index": 253,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"unrel",
+				{
+					"_index": 416,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"up",
+				{
+					"_index": 50,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"upload",
+				{
+					"_index": 20,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"url",
+				{
+					"_index": 298,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"us",
+				{
+					"_index": 57,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"user",
+				{
+					"_index": 234,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"valu",
+				{
+					"_index": 98,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"var",
+				{
+					"_index": 91,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"variabl",
+				{
+					"_index": 62,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"vendor",
+				{
+					"_index": 193,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"verifi",
+				{
+					"_index": 72,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"via",
+				{
+					"_index": 86,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"view",
+				{
+					"_index": 52,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"view'",
+				{
+					"_index": 172,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"visibl",
+				{
+					"_index": 65,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"visit",
+				{
+					"_index": 410,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"walk",
+				{
+					"_index": 228,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"want",
+				{
+					"_index": 76,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"watch",
+				{
+					"_index": 22,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"README.md": {},
+						"examples/README.md": {},
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"welcom",
+				{
+					"_index": 163,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"whenev",
+				{
+					"_index": 380,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"whole",
+				{
+					"_index": 60,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"whose",
+				{
+					"_index": 168,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"wire",
+				{
+					"_index": 49,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"without",
+				{
+					"_index": 384,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"work",
+				{
+					"_index": 210,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"wrap",
+				{
+					"_index": 165,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"wrapper",
+				{
+					"_index": 169,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			],
+			[
+				"write",
+				{
+					"_index": 99,
+					"title": {},
+					"module": {},
+					"group": {},
+					"body": {
+						"examples/theme-playground/README.md": {}
+					}
+				}
+			]
+		],
+		"pipeline": [
+			"stemmer"
+		]
+	},
+	"Documents": {
+		"README.md": {
+			"Title": "Documentation",
+			"Module": "pict-provider-theme",
+			"Group": "",
+			"DocPath": "README.md"
+		},
+		"examples/README.md": {
+			"Title": "Example Applications",
+			"Module": "pict-provider-theme",
+			"Group": "",
+			"DocPath": "examples/README.md"
+		},
+		"examples/theme-playground/README.md": {
+			"Title": "Theme Playground — Interactive Theme Builder",
+			"Module": "pict-provider-theme",
+			"Group": "",
+			"DocPath": "examples/theme-playground/README.md"
+		}
+	}
+}

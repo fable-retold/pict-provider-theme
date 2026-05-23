@@ -4,6 +4,14 @@
 	"description": "Interactive theme builder/playground for pict-provider-theme. Live-edit tokens + CSS, upload imagery, see a representative component gallery reflow instantly, export a compiled JSON bundle.",
 	"main": "src/Pict-Application-Playground.js",
 	"private": true,
+	"retold": {
+		"ExampleApplication": {
+			"Stage": true,
+			"Title": "Theme Playground",
+			"Summary": "Interactive theme builder — live-edit tokens and CSS, upload imagery, watch a representative pict-section component gallery reflow instantly, and export a compiled JSON bundle.",
+			"Complexity": "Advanced"
+		}
+	},
 	"scripts": {
 		"build": "npx quack build && npx quack copy",
 		"serve": "node serve.js",
