@@ -517,10 +517,10 @@ The build step runs `npx quack build && npx quack copy` and emits
 
 ## Related documentation
 
-- [pict-section-theme](https://stevenvelozo.github.io/pict-section-theme/) — the chrome
+- [pict-section-theme](https://fable-retold.github.io/pict-section-theme/) — the chrome
   views (TopBar, BottomBar, Picker, ModeToggle, ScaleSelect) that
   consume this provider in a real application.
-- [pict-section-modal](https://stevenvelozo.github.io/pict-section-modal/) — modal /
+- [pict-section-modal](https://fable-retold.github.io/pict-section-modal/) — modal /
   toast / tooltip surface; one of the gallery sections.
-- [pict-section-form](https://stevenvelozo.github.io/pict-section-form/) — form builder
+- [pict-section-form](https://fable-retold.github.io/pict-section-form/) — form builder
   surface; another gallery section.
