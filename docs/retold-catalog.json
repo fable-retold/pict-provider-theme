@@ -1,5 +1,5 @@
 {
-	"Generated": "2026-05-26T21:12:55.995Z",
+	"Generated": "2026-05-31T01:23:01.467Z",
 	"Mode": "module",
 	"GitHubOrg": "fable-retold",
 	"DefaultBranch": "master",
@@ -9,7 +9,7 @@
 		"Group": "",
 		"Branch": "master",
 		"HasDocs": true,
-		"HasCover": false,
+		"HasCover": true,
 		"Sidebar": [
 			{
 				"Title": "Getting Started",
@@ -17,6 +17,23 @@
 					{
 						"Title": "Overview",
 						"Path": "README.md"
+					},
+					{
+						"Title": "Quickstart",
+						"Path": "quickstart.md"
+					}
+				]
+			},
+			{
+				"Title": "Reference",
+				"Children": [
+					{
+						"Title": "Architecture",
+						"Path": "architecture.md"
+					},
+					{
+						"Title": "Theme Bundles & theme-build",
+						"Path": "theme-bundles.md"
 					}
 				]
 			},
@@ -28,21 +45,50 @@
 						"Path": "#/page/examples/theme-playground/README"
 					}
 				]
+			},
+			{
+				"Title": "Retold Ecosystem",
+				"Children": [
+					{
+						"Title": "Pict",
+						"Path": "https://fable-retold.github.io/pict/README.md"
+					},
+					{
+						"Title": "Pict Provider",
+						"Path": "https://fable-retold.github.io/pict-provider/README.md"
+					},
+					{
+						"Title": "Pict Template",
+						"Path": "https://fable-retold.github.io/pict-template/README.md"
+					},
+					{
+						"Title": "Pict Section Theme",
+						"Path": "https://fable-retold.github.io/pict-section-theme/README.md"
+					},
+					{
+						"Title": "Quackage",
+						"Path": "https://fable-retold.github.io/quackage/README.md"
+					}
+				]
 			}
 		],
 		"DocFiles": [
 			".nojekyll",
 			"README.md",
+			"_cover.md",
 			"_sidebar.md",
 			"_version.json",
+			"architecture.md",
 			"examples/README.md",
 			"examples/theme-playground/README.md",
 			"examples/theme-playground/index.html",
 			"examples/theme-playground/pict-provider-theme-playground.min.js",
 			"examples/theme-playground/playground.css",
 			"index.html",
+			"quickstart.md",
 			"retold-catalog.json",
-			"retold-keyword-index.json"
+			"retold-keyword-index.json",
+			"theme-bundles.md"
 		]
 	},
 	"Groups": []
