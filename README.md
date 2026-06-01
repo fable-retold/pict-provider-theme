@@ -2,7 +2,7 @@
 
 > **[Read the Pict-Provider-Theme Documentation](https://fable-retold.github.io/pict-provider-theme/)** - interactive docs with quickstart, architecture, and the bundle format.
 
-A runtime theme manager for [Pict](https://fable-retold.github.io/pict/) applications. Register theme bundles (token maps + CSS + SVG + image assets) and apply them at runtime by injecting CSS custom properties into a single `<style>` element. Supports dark / light / system modes via a class on `<html>`, and ships a `quack theme-build` command that compiles unrolled theme folders into single self-contained JSON bundles.
+A runtime theme manager for [Pict](https://github.com/fable-retold/pict) applications. Register theme bundles (token maps + CSS + SVG + image assets) and apply them at runtime by injecting CSS custom properties into a single `<style>` element. Supports dark / light / system modes via a class on `<html>`, and ships a `quack theme-build` command that compiles unrolled theme folders into single self-contained JSON bundles.
 
 [MIT License](LICENSE)
 
@@ -106,11 +106,11 @@ Runs the Mocha (TDD) suites for the provider, the compiler, the diagram adapter,
 
 ## Related Modules
 
-- [pict](https://fable-retold.github.io/pict/) - The MVC framework. Supplies the application, the CSS cascade (`CSSMap`), and the template engine the provider integrates with.
-- [pict-provider](https://fable-retold.github.io/pict-provider/) - The base provider class this extends.
-- [pict-template](https://fable-retold.github.io/pict-template/) - The base class for the four `{~Theme*:~}` template expressions.
-- [pict-section-theme](https://fable-retold.github.io/pict-section-theme/) - Chrome views (theme picker, mode toggle, scale select) that drive this provider in a real application.
-- [quackage](https://fable-retold.github.io/quackage/) - The build tool that hosts the `theme-build` and `theme-screenshot` commands.
+- [pict](https://github.com/fable-retold/pict) - The MVC framework. Supplies the application, the CSS cascade (`CSSMap`), and the template engine the provider integrates with.
+- [pict-provider](https://github.com/fable-retold/pict-provider) - The base provider class this extends.
+- [pict-template](https://github.com/fable-retold/pict-template) - The base class for the four `{~Theme*:~}` template expressions.
+- [pict-section-theme](https://github.com/fable-retold/pict-section-theme) - Chrome views (theme picker, mode toggle, scale select) that drive this provider in a real application.
+- [quackage](https://github.com/fable-retold/quackage) - The build tool that hosts the `theme-build` and `theme-screenshot` commands.
 
 ## License
 
