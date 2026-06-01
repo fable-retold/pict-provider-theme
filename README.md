@@ -4,7 +4,7 @@
 
 A runtime theme manager for [Pict](https://fable-retold.github.io/pict/) applications. Register theme bundles (token maps + CSS + SVG + image assets) and apply them at runtime by injecting CSS custom properties into a single `<style>` element. Supports dark / light / system modes via a class on `<html>`, and ships a `quack theme-build` command that compiles unrolled theme folders into single self-contained JSON bundles.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[MIT License](LICENSE)
 
 ---
 
